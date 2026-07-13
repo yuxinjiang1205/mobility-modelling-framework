@@ -1,812 +1,488 @@
 [
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Does not apply",
+        "Household Type":"Couple household: All children non-dependent",
         "Age Group":"0-4",
         "Observation":0
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Does not apply",
+        "Household Type":"Couple household: All children non-dependent",
         "Age Group":"12-17",
-        "Observation":0
+        "Observation":107
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Does not apply",
+        "Household Type":"Couple household: All children non-dependent",
         "Age Group":"18-22",
-        "Observation":0
+        "Observation":3313
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Does not apply",
+        "Household Type":"Couple household: All children non-dependent",
         "Age Group":"23-34",
-        "Observation":0
+        "Observation":7200
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Does not apply",
+        "Household Type":"Couple household: All children non-dependent",
         "Age Group":"35-49",
-        "Observation":0
+        "Observation":4158
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Does not apply",
+        "Household Type":"Couple household: All children non-dependent",
         "Age Group":"5-11",
         "Observation":0
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Does not apply",
+        "Household Type":"Couple household: All children non-dependent",
         "Age Group":"50-64",
-        "Observation":0
+        "Observation":11455
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Does not apply",
+        "Household Type":"Couple household: All children non-dependent",
         "Age Group":"65-74",
-        "Observation":0
+        "Observation":3133
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Does not apply",
+        "Household Type":"Couple household: All children non-dependent",
         "Age Group":"75+",
-        "Observation":0
+        "Observation":1194
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Aged 66 years and over",
+        "Household Type":"Couple household: No children",
         "Age Group":"0-4",
         "Observation":0
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Aged 66 years and over",
-        "Age Group":"12-17",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Aged 66 years and over",
-        "Age Group":"18-22",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Aged 66 years and over",
-        "Age Group":"23-34",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Aged 66 years and over",
-        "Age Group":"35-49",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Aged 66 years and over",
-        "Age Group":"5-11",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Aged 66 years and over",
-        "Age Group":"50-64",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Aged 66 years and over",
-        "Age Group":"65-74",
-        "Observation":9103
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Aged 66 years and over",
-        "Age Group":"75+",
-        "Observation":9611
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Other",
-        "Age Group":"0-4",
-        "Observation":23
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Other",
-        "Age Group":"12-17",
-        "Observation":79
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Other",
-        "Age Group":"18-22",
-        "Observation":2247
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Other",
-        "Age Group":"23-34",
-        "Observation":14567
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Other",
-        "Age Group":"35-49",
-        "Observation":15862
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Other",
-        "Age Group":"5-11",
-        "Observation":16
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Other",
-        "Age Group":"50-64",
-        "Observation":18980
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Other",
-        "Age Group":"65-74",
-        "Observation":1093
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"One-person household: Other",
-        "Age Group":"75+",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other related household: Other family composition",
-        "Age Group":"0-4",
-        "Observation":61
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other related household: Other family composition",
-        "Age Group":"12-17",
-        "Observation":260
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other related household: Other family composition",
-        "Age Group":"18-22",
-        "Observation":1344
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other related household: Other family composition",
-        "Age Group":"23-34",
-        "Observation":3478
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other related household: Other family composition",
-        "Age Group":"35-49",
-        "Observation":1678
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other related household: Other family composition",
-        "Age Group":"5-11",
-        "Observation":136
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other related household: Other family composition",
-        "Age Group":"50-64",
-        "Observation":1559
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other related household: Other family composition",
-        "Age Group":"65-74",
-        "Observation":319
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other related household: Other family composition",
-        "Age Group":"75+",
-        "Observation":83
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other, including all full-time students and all aged 66 years and over",
-        "Age Group":"0-4",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other, including all full-time students and all aged 66 years and over",
-        "Age Group":"12-17",
-        "Observation":223
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other, including all full-time students and all aged 66 years and over",
-        "Age Group":"18-22",
-        "Observation":20366
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other, including all full-time students and all aged 66 years and over",
-        "Age Group":"23-34",
-        "Observation":26149
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other, including all full-time students and all aged 66 years and over",
-        "Age Group":"35-49",
-        "Observation":6195
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other, including all full-time students and all aged 66 years and over",
-        "Age Group":"5-11",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other, including all full-time students and all aged 66 years and over",
-        "Age Group":"50-64",
-        "Observation":5008
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other, including all full-time students and all aged 66 years and over",
-        "Age Group":"65-74",
-        "Observation":1526
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: Other, including all full-time students and all aged 66 years and over",
-        "Age Group":"75+",
-        "Observation":890
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: With dependent children",
-        "Age Group":"0-4",
-        "Observation":5487
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: With dependent children",
-        "Age Group":"12-17",
-        "Observation":4889
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: With dependent children",
-        "Age Group":"18-22",
-        "Observation":3083
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: With dependent children",
-        "Age Group":"23-34",
-        "Observation":8709
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: With dependent children",
-        "Age Group":"35-49",
-        "Observation":8344
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: With dependent children",
-        "Age Group":"5-11",
-        "Observation":6253
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: With dependent children",
-        "Age Group":"50-64",
-        "Observation":5421
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: With dependent children",
-        "Age Group":"65-74",
-        "Observation":1857
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Other household types: With dependent children",
-        "Age Group":"75+",
-        "Observation":903
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: All aged 66 years and over",
-        "Age Group":"0-4",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: All aged 66 years and over",
-        "Age Group":"12-17",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: All aged 66 years and over",
-        "Age Group":"18-22",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: All aged 66 years and over",
-        "Age Group":"23-34",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: All aged 66 years and over",
-        "Age Group":"35-49",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: All aged 66 years and over",
-        "Age Group":"5-11",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: All aged 66 years and over",
-        "Age Group":"50-64",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: All aged 66 years and over",
-        "Age Group":"65-74",
-        "Observation":7024
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: All aged 66 years and over",
-        "Age Group":"75+",
-        "Observation":5673
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: All children non-dependent",
-        "Age Group":"0-4",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: All children non-dependent",
-        "Age Group":"12-17",
-        "Observation":29
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: All children non-dependent",
-        "Age Group":"18-22",
-        "Observation":650
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: All children non-dependent",
-        "Age Group":"23-34",
-        "Observation":1023
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: All children non-dependent",
-        "Age Group":"35-49",
-        "Observation":837
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: All children non-dependent",
-        "Age Group":"5-11",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: All children non-dependent",
-        "Age Group":"50-64",
-        "Observation":1782
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: All children non-dependent",
-        "Age Group":"65-74",
-        "Observation":264
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: All children non-dependent",
-        "Age Group":"75+",
-        "Observation":64
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: No children",
-        "Age Group":"0-4",
-        "Observation":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: No children",
+        "Household Type":"Couple household: No children",
         "Age Group":"12-17",
         "Observation":5
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: No children",
+        "Household Type":"Couple household: No children",
         "Age Group":"18-22",
-        "Observation":1471
+        "Observation":1585
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: No children",
+        "Household Type":"Couple household: No children",
         "Age Group":"23-34",
-        "Observation":20366
+        "Observation":26128
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: No children",
+        "Household Type":"Couple household: No children",
         "Age Group":"35-49",
-        "Observation":6609
+        "Observation":12909
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: No children",
+        "Household Type":"Couple household: No children",
         "Age Group":"5-11",
         "Observation":0
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: No children",
+        "Household Type":"Couple household: No children",
         "Age Group":"50-64",
-        "Observation":4011
+        "Observation":15022
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: No children",
+        "Household Type":"Couple household: No children",
         "Age Group":"65-74",
-        "Observation":586
+        "Observation":3307
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: No children",
+        "Household Type":"Couple household: No children",
         "Age Group":"75+",
-        "Observation":82
+        "Observation":285
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: With dependent children",
+        "Household Type":"Couple household: With dependent children",
         "Age Group":"0-4",
-        "Observation":5218
+        "Observation":20814
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: With dependent children",
+        "Household Type":"Couple household: With dependent children",
         "Age Group":"12-17",
-        "Observation":3566
+        "Observation":22064
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: With dependent children",
+        "Household Type":"Couple household: With dependent children",
         "Age Group":"18-22",
-        "Observation":1163
+        "Observation":7404
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: With dependent children",
+        "Household Type":"Couple household: With dependent children",
         "Age Group":"23-34",
-        "Observation":5938
+        "Observation":19273
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: With dependent children",
+        "Household Type":"Couple household: With dependent children",
         "Age Group":"35-49",
-        "Observation":8567
+        "Observation":43856
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: With dependent children",
+        "Household Type":"Couple household: With dependent children",
         "Age Group":"5-11",
-        "Observation":5835
+        "Observation":29950
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: With dependent children",
+        "Household Type":"Couple household: With dependent children",
         "Age Group":"50-64",
-        "Observation":1737
+        "Observation":11263
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: With dependent children",
+        "Household Type":"Couple household: With dependent children",
         "Age Group":"65-74",
-        "Observation":65
+        "Observation":423
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Cohabiting couple family: With dependent children",
+        "Household Type":"Couple household: With dependent children",
         "Age Group":"75+",
-        "Observation":7
+        "Observation":71
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: All children non-dependent",
+        "Household Type":"Lone parent household: All children non-dependent",
         "Age Group":"0-4",
         "Observation":0
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: All children non-dependent",
+        "Household Type":"Lone parent household: All children non-dependent",
         "Age Group":"12-17",
         "Observation":157
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: All children non-dependent",
+        "Household Type":"Lone parent household: All children non-dependent",
         "Age Group":"18-22",
         "Observation":3104
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: All children non-dependent",
+        "Household Type":"Lone parent household: All children non-dependent",
         "Age Group":"23-34",
         "Observation":6483
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: All children non-dependent",
+        "Household Type":"Lone parent household: All children non-dependent",
         "Age Group":"35-49",
         "Observation":4296
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: All children non-dependent",
+        "Household Type":"Lone parent household: All children non-dependent",
         "Age Group":"5-11",
         "Observation":0
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: All children non-dependent",
+        "Household Type":"Lone parent household: All children non-dependent",
         "Age Group":"50-64",
         "Observation":6865
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: All children non-dependent",
+        "Household Type":"Lone parent household: All children non-dependent",
         "Age Group":"65-74",
         "Observation":1973
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: All children non-dependent",
+        "Household Type":"Lone parent household: All children non-dependent",
         "Age Group":"75+",
         "Observation":1797
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: With dependent children",
+        "Household Type":"Lone parent household: With dependent children",
         "Age Group":"0-4",
         "Observation":7992
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: With dependent children",
+        "Household Type":"Lone parent household: With dependent children",
         "Age Group":"12-17",
         "Observation":13167
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: With dependent children",
+        "Household Type":"Lone parent household: With dependent children",
         "Age Group":"18-22",
         "Observation":4433
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: With dependent children",
+        "Household Type":"Lone parent household: With dependent children",
         "Age Group":"23-34",
         "Observation":8066
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: With dependent children",
+        "Household Type":"Lone parent household: With dependent children",
         "Age Group":"35-49",
         "Observation":10829
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: With dependent children",
+        "Household Type":"Lone parent household: With dependent children",
         "Age Group":"5-11",
         "Observation":14972
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: With dependent children",
+        "Household Type":"Lone parent household: With dependent children",
         "Age Group":"50-64",
         "Observation":2428
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: With dependent children",
+        "Household Type":"Lone parent household: With dependent children",
         "Age Group":"65-74",
         "Observation":118
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Lone parent family: With dependent children",
+        "Household Type":"Lone parent household: With dependent children",
         "Age Group":"75+",
         "Observation":39
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: All children non-dependent",
+        "Household Type":"Older family household",
         "Age Group":"0-4",
         "Observation":0
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: All children non-dependent",
+        "Household Type":"Older family household",
         "Age Group":"12-17",
-        "Observation":78
+        "Observation":0
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: All children non-dependent",
+        "Household Type":"Older family household",
         "Age Group":"18-22",
-        "Observation":2663
+        "Observation":0
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: All children non-dependent",
+        "Household Type":"Older family household",
         "Age Group":"23-34",
-        "Observation":6177
+        "Observation":0
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: All children non-dependent",
+        "Household Type":"Older family household",
         "Age Group":"35-49",
-        "Observation":3321
+        "Observation":0
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: All children non-dependent",
+        "Household Type":"Older family household",
         "Age Group":"5-11",
         "Observation":0
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: All children non-dependent",
+        "Household Type":"Older family household",
         "Age Group":"50-64",
-        "Observation":9673
+        "Observation":0
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: All children non-dependent",
+        "Household Type":"Older family household",
         "Age Group":"65-74",
-        "Observation":2869
+        "Observation":7024
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: All children non-dependent",
+        "Household Type":"Older family household",
         "Age Group":"75+",
-        "Observation":1130
+        "Observation":5673
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: Dependent children",
+        "Household Type":"One-person household",
         "Age Group":"0-4",
-        "Observation":15596
+        "Observation":23
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: Dependent children",
+        "Household Type":"One-person household",
         "Age Group":"12-17",
-        "Observation":18498
+        "Observation":79
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: Dependent children",
+        "Household Type":"One-person household",
         "Age Group":"18-22",
-        "Observation":6241
+        "Observation":2247
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: Dependent children",
+        "Household Type":"One-person household",
         "Age Group":"23-34",
-        "Observation":13335
+        "Observation":14567
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: Dependent children",
+        "Household Type":"One-person household",
         "Age Group":"35-49",
-        "Observation":35289
+        "Observation":15862
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: Dependent children",
+        "Household Type":"One-person household",
         "Age Group":"5-11",
-        "Observation":24115
+        "Observation":16
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: Dependent children",
+        "Household Type":"One-person household",
         "Age Group":"50-64",
-        "Observation":9526
+        "Observation":18980
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: Dependent children",
+        "Household Type":"One-person household",
         "Age Group":"65-74",
-        "Observation":358
+        "Observation":10196
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: Dependent children",
+        "Household Type":"One-person household",
         "Age Group":"75+",
-        "Observation":64
+        "Observation":9611
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: No children",
+        "Household Type":"Other family household",
         "Age Group":"0-4",
-        "Observation":0
+        "Observation":61
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: No children",
+        "Household Type":"Other family household",
         "Age Group":"12-17",
-        "Observation":0
+        "Observation":260
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: No children",
+        "Household Type":"Other family household",
         "Age Group":"18-22",
-        "Observation":114
+        "Observation":1344
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: No children",
+        "Household Type":"Other family household",
         "Age Group":"23-34",
-        "Observation":5762
+        "Observation":3478
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: No children",
+        "Household Type":"Other family household",
         "Age Group":"35-49",
-        "Observation":6300
+        "Observation":1678
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: No children",
+        "Household Type":"Other family household",
         "Age Group":"5-11",
-        "Observation":0
+        "Observation":136
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: No children",
+        "Household Type":"Other family household",
         "Age Group":"50-64",
-        "Observation":11011
+        "Observation":1559
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: No children",
+        "Household Type":"Other family household",
         "Age Group":"65-74",
-        "Observation":2721
+        "Observation":319
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Household composition (15 categories)":"Single family household: Married or civil partnership couple: No children",
+        "Household Type":"Other family household",
         "Age Group":"75+",
-        "Observation":203
+        "Observation":83
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Type":"Other non-family household",
+        "Age Group":"0-4",
+        "Observation":5487
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Type":"Other non-family household",
+        "Age Group":"12-17",
+        "Observation":5112
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Type":"Other non-family household",
+        "Age Group":"18-22",
+        "Observation":23449
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Type":"Other non-family household",
+        "Age Group":"23-34",
+        "Observation":34858
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Type":"Other non-family household",
+        "Age Group":"35-49",
+        "Observation":14539
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Type":"Other non-family household",
+        "Age Group":"5-11",
+        "Observation":6253
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Type":"Other non-family household",
+        "Age Group":"50-64",
+        "Observation":10429
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Type":"Other non-family household",
+        "Age Group":"65-74",
+        "Observation":3383
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Type":"Other non-family household",
+        "Age Group":"75+",
+        "Observation":1793
     }
 ]
