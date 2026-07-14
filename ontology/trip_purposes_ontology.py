@@ -1,0 +1,16 @@
+UNIFIED_TRIP_PURPOSE = [
+    "Commuting",
+    "Business",
+    "Education",
+    "Escort Education",
+    "Shopping",
+    "Other Escort",
+    "Personal Business",
+    "Visiting Friends at Private Home",
+    "Visiting Friends Elsewhere",
+    "Entertainment or Public Activity",
+    "Sport: Participate",
+    "Holiday: Base",
+    "Day Trip",
+    "Just Walk",
+]
