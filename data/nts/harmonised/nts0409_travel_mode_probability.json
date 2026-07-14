@@ -32,7 +32,7 @@
         "Walk [notes 3, 4]":0.1266160833
     },
     {
-        "Purpose":"Education or escort education",
+        "Purpose":"Education or Escort Education",
         "Bus in London":0.0205059639,
         "Car or van driver":0.2340309385,
         "Car or van passenger":0.2316334414,
@@ -48,7 +48,7 @@
         "Walk [notes 3, 4]":0.404652552
     },
     {
-        "Purpose":"Just walk [note 8]",
+        "Purpose":"Just Walk",
         "Bus in London":0.0,
         "Car or van driver":0.0,
         "Car or van passenger":0.0,
@@ -64,7 +64,7 @@
         "Walk [notes 3, 4]":1.0
     },
     {
-        "Purpose":"Leisure [note 2]",
+        "Purpose":"Leisure",
         "Bus in London":0.0125479339,
         "Car or van driver":0.3795521012,
         "Car or van passenger":0.3228473693,
@@ -80,7 +80,7 @@
         "Walk [notes 3, 4]":0.1627865531
     },
     {
-        "Purpose":"Other [note 8]",
+        "Purpose":"Other",
         "Bus in London":0.0168082659,
         "Car or van driver":0.8437114575,
         "Car or van passenger":0.113765571,
@@ -96,7 +96,7 @@
         "Walk [notes 3, 4]":0.0
     },
     {
-        "Purpose":"Other escort",
+        "Purpose":"Other Escort",
         "Bus in London":0.0049708649,
         "Car or van driver":0.5640455537,
         "Car or van passenger":0.2826147786,
@@ -112,7 +112,7 @@
         "Walk [notes 3, 4]":0.1159543957
     },
     {
-        "Purpose":"Personal business",
+        "Purpose":"Personal Business",
         "Bus in London":0.0163791848,
         "Car or van driver":0.4254555337,
         "Car or van passenger":0.2228902613,
