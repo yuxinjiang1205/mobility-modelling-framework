@@ -1,4 +1,4 @@
-purpose_mapping = {
+nts_purpose_mapping = {
 
     "Commuting": {
         "nts0502": ["Commuting"],
@@ -69,10 +69,5 @@ purpose_mapping = {
         "nts0502": ["Holiday, Day Trip and Other"],
         "nts0409": ["Just Walk"]
     },
-
-    "Other": {
-        "nts0502": ["Other"],
-        "nts0409": ["Other"]
-    }
-
+    
 }
