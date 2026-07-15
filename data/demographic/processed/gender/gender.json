@@ -1,110 +1,110 @@
 [
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Female",
-        "Age Group":"0-4",
-        "Observation":17115
+        "Gender":"Female",
+        "Age":"0-4",
+        "Sex Population":17115
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Male",
-        "Age Group":"0-4",
-        "Observation":17263
+        "Gender":"Male",
+        "Age":"0-4",
+        "Sex Population":17263
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Female",
-        "Age Group":"5-11",
-        "Observation":25072
+        "Gender":"Female",
+        "Age":"5-11",
+        "Sex Population":25072
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Male",
-        "Age Group":"5-11",
-        "Observation":26277
+        "Gender":"Male",
+        "Age":"5-11",
+        "Sex Population":26277
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Female",
-        "Age Group":"12-17",
-        "Observation":20286
+        "Gender":"Female",
+        "Age":"12-17",
+        "Sex Population":20286
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Male",
-        "Age Group":"12-17",
-        "Observation":20939
+        "Gender":"Male",
+        "Age":"12-17",
+        "Sex Population":20939
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Female",
-        "Age Group":"18-22",
-        "Observation":32021
+        "Gender":"Female",
+        "Age":"18-22",
+        "Sex Population":32021
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Male",
-        "Age Group":"18-22",
-        "Observation":29762
+        "Gender":"Male",
+        "Age":"18-22",
+        "Sex Population":29762
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Female",
-        "Age Group":"23-34",
-        "Observation":62305
+        "Gender":"Female",
+        "Age":"23-34",
+        "Sex Population":62305
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Male",
-        "Age Group":"23-34",
-        "Observation":61136
+        "Gender":"Male",
+        "Age":"23-34",
+        "Sex Population":61136
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Female",
-        "Age Group":"35-49",
-        "Observation":54383
+        "Gender":"Female",
+        "Age":"35-49",
+        "Sex Population":54383
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Male",
-        "Age Group":"35-49",
-        "Observation":54509
+        "Gender":"Male",
+        "Age":"35-49",
+        "Sex Population":54509
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Female",
-        "Age Group":"50-64",
-        "Observation":38801
+        "Gender":"Female",
+        "Age":"50-64",
+        "Sex Population":38801
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Male",
-        "Age Group":"50-64",
-        "Observation":39902
+        "Gender":"Male",
+        "Age":"50-64",
+        "Sex Population":39902
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Female",
-        "Age Group":"65-74",
-        "Observation":15120
+        "Gender":"Female",
+        "Age":"65-74",
+        "Sex Population":15120
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Male",
-        "Age Group":"65-74",
-        "Observation":15180
+        "Gender":"Male",
+        "Age":"65-74",
+        "Sex Population":15180
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Female",
-        "Age Group":"75+",
-        "Observation":12775
+        "Gender":"Female",
+        "Age":"75+",
+        "Sex Population":12775
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Sex (2 categories)":"Male",
-        "Age Group":"75+",
-        "Observation":9094
+        "Gender":"Male",
+        "Age":"75+",
+        "Sex Population":9094
     }
 ]

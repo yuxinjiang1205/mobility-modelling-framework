@@ -1,47 +1,47 @@
 [
     {
         "Lower tier local authorities":"Manchester",
-        "Age Group":"0-4",
-        "Observation":34378
+        "Age":"0-4",
+        "Population":34378
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Age Group":"5-11",
-        "Observation":51349
+        "Age":"5-11",
+        "Population":51349
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Age Group":"12-17",
-        "Observation":41226
+        "Age":"12-17",
+        "Population":41226
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Age Group":"18-22",
-        "Observation":61780
+        "Age":"18-22",
+        "Population":61780
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Age Group":"23-34",
-        "Observation":123440
+        "Age":"23-34",
+        "Population":123440
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Age Group":"35-49",
-        "Observation":108897
+        "Age":"35-49",
+        "Population":108897
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Age Group":"50-64",
-        "Observation":78705
+        "Age":"50-64",
+        "Population":78705
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Age Group":"65-74",
-        "Observation":30299
+        "Age":"65-74",
+        "Population":30299
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Age Group":"75+",
-        "Observation":21868
+        "Age":"75+",
+        "Population":21868
     }
 ]
