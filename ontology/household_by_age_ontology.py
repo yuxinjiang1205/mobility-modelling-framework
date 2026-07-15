@@ -1,4 +1,4 @@
-household_by_age_ontology = {
+HOUSEHOLD_BY_AGE_ONTOLOGY = {
 
     "One-person household": [
         "One-person household: Aged 66 years and over",
