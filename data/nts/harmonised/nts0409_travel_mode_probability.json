@@ -8,12 +8,12 @@
         "Motorcycle":0.0018175813,
         "Non-local bus":0.0,
         "Other local bus":0.0229843345,
-        "Other private transport [note 6]":0.007440021,
-        "Other public transport [note 7]":0.0021315513,
-        "Pedal cycle [note 5]":0.0185434879,
+        "Other Private Transport":0.007440021,
+        "Other Public Transport":0.0021315513,
+        "Pedal Cycle":0.0185434879,
         "Surface Rail":0.0684016484,
         "Taxi or minicab":0.0118309658,
-        "Walk [notes 3, 4]":0.0868453664
+        "Walk":0.0868453664
     },
     {
         "Purpose":"Commuting",
@@ -24,12 +24,12 @@
         "Motorcycle":0.0093220727,
         "Non-local bus":0.0003827697,
         "Other local bus":0.0535665554,
-        "Other private transport [note 6]":0.0046012071,
-        "Other public transport [note 7]":0.0045466092,
-        "Pedal cycle [note 5]":0.0418542845,
+        "Other Private Transport":0.0046012071,
+        "Other Public Transport":0.0045466092,
+        "Pedal Cycle":0.0418542845,
         "Surface Rail":0.0693396544,
         "Taxi or minicab":0.0104936517,
-        "Walk [notes 3, 4]":0.1266160833
+        "Walk":0.1266160833
     },
     {
         "Purpose":"Education or Escort Education",
@@ -40,12 +40,12 @@
         "Motorcycle":0.0001766855,
         "Non-local bus":0.0,
         "Other local bus":0.0466754751,
-        "Other private transport [note 6]":0.0257200573,
-        "Other public transport [note 7]":0.0012625756,
-        "Pedal cycle [note 5]":0.0117187753,
+        "Other Private Transport":0.0257200573,
+        "Other Public Transport":0.0012625756,
+        "Pedal Cycle":0.0117187753,
         "Surface Rail":0.0115958784,
         "Taxi or minicab":0.0061771416,
-        "Walk [notes 3, 4]":0.404652552
+        "Walk":0.404652552
     },
     {
         "Purpose":"Just Walk",
@@ -56,12 +56,12 @@
         "Motorcycle":0.0,
         "Non-local bus":0.0,
         "Other local bus":0.0,
-        "Other private transport [note 6]":0.0,
-        "Other public transport [note 7]":0.0,
-        "Pedal cycle [note 5]":0.0,
+        "Other Private Transport":0.0,
+        "Other Public Transport":0.0,
+        "Pedal Cycle":0.0,
         "Surface Rail":0.0,
         "Taxi or minicab":0.0,
-        "Walk [notes 3, 4]":1.0
+        "Walk":1.0
     },
     {
         "Purpose":"Leisure",
@@ -72,12 +72,12 @@
         "Motorcycle":0.0023477236,
         "Non-local bus":0.0013442252,
         "Other local bus":0.0246345119,
-        "Other private transport [note 6]":0.0088542918,
-        "Other public transport [note 7]":0.0025789804,
-        "Pedal cycle [note 5]":0.0245766925,
+        "Other Private Transport":0.0088542918,
+        "Other Public Transport":0.0025789804,
+        "Pedal Cycle":0.0245766925,
         "Surface Rail":0.0292346076,
         "Taxi or minicab":0.0164699924,
-        "Walk [notes 3, 4]":0.1627865531
+        "Walk":0.1627865531
     },
     {
         "Purpose":"Other",
@@ -88,12 +88,12 @@
         "Motorcycle":0.0,
         "Non-local bus":0.0,
         "Other local bus":0.0257147056,
-        "Other private transport [note 6]":0.0,
-        "Other public transport [note 7]":0.0,
-        "Pedal cycle [note 5]":0.0,
+        "Other Private Transport":0.0,
+        "Other Public Transport":0.0,
+        "Pedal Cycle":0.0,
         "Surface Rail":0.0,
         "Taxi or minicab":0.0,
-        "Walk [notes 3, 4]":0.0
+        "Walk":0.0
     },
     {
         "Purpose":"Other Escort",
@@ -104,12 +104,12 @@
         "Motorcycle":0.0002076805,
         "Non-local bus":0.0,
         "Other local bus":0.0130244106,
-        "Other private transport [note 6]":0.007612954,
-        "Other public transport [note 7]":0.0009092746,
-        "Pedal cycle [note 5]":0.0021107218,
+        "Other Private Transport":0.007612954,
+        "Other Public Transport":0.0009092746,
+        "Pedal Cycle":0.0021107218,
         "Surface Rail":0.0032098381,
         "Taxi or minicab":0.0044536373,
-        "Walk [notes 3, 4]":0.1159543957
+        "Walk":0.1159543957
     },
     {
         "Purpose":"Personal Business",
@@ -120,12 +120,12 @@
         "Motorcycle":0.0007987761,
         "Non-local bus":0.0001998753,
         "Other local bus":0.0314268945,
-        "Other private transport [note 6]":0.0081179609,
-        "Other public transport [note 7]":0.0017919682,
-        "Pedal cycle [note 5]":0.0095945739,
+        "Other Private Transport":0.0081179609,
+        "Other Public Transport":0.0017919682,
+        "Pedal Cycle":0.0095945739,
         "Surface Rail":0.0115573531,
         "Taxi or minicab":0.0147371709,
-        "Walk [notes 3, 4]":0.2503342018
+        "Walk":0.2503342018
     },
     {
         "Purpose":"Shopping",
@@ -136,11 +136,11 @@
         "Motorcycle":0.0012441088,
         "Non-local bus":0.0000277596,
         "Other local bus":0.0363928901,
-        "Other private transport [note 6]":0.0046899925,
-        "Other public transport [note 7]":0.0016432001,
-        "Pedal cycle [note 5]":0.008853268,
+        "Other Private Transport":0.0046899925,
+        "Other Public Transport":0.0016432001,
+        "Pedal Cycle":0.008853268,
         "Surface Rail":0.0075774527,
         "Taxi or minicab":0.0050779528,
-        "Walk [notes 3, 4]":0.2815205989
+        "Walk":0.2815205989
     }
 ]
