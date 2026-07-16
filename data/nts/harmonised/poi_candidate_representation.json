@@ -1,7 +1,7 @@
 [
     {
         "Year":2024,
-        "Sex [note 2]":"Females",
+        "Sex":"Females",
         "Age":"0-4",
         "Employment":0.1466319127,
         "Education":0.3716585458,
@@ -15,7 +15,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Females",
+        "Sex":"Females",
         "Age":"5-11",
         "Employment":0.1466319127,
         "Education":0.3716585458,
@@ -29,7 +29,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Females",
+        "Sex":"Females",
         "Age":"12-17",
         "Employment":0.1533670328,
         "Education":0.3430666831,
@@ -43,7 +43,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Females",
+        "Sex":"Females",
         "Age":"18-22",
         "Employment":0.2322734597,
         "Education":0.1369388731,
@@ -57,7 +57,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Females",
+        "Sex":"Females",
         "Age":"23-34",
         "Employment":0.2877065218,
         "Education":0.1081248321,
@@ -71,7 +71,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Females",
+        "Sex":"Females",
         "Age":"35-49",
         "Employment":0.2693237451,
         "Education":0.1724267361,
@@ -85,7 +85,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Females",
+        "Sex":"Females",
         "Age":"50-64",
         "Employment":0.2301027234,
         "Education":0.0401777918,
@@ -99,7 +99,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Females",
+        "Sex":"Females",
         "Age":"65-74",
         "Employment":0.1060263469,
         "Education":0.0215602712,
@@ -113,7 +113,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Females",
+        "Sex":"Females",
         "Age":"75+",
         "Employment":0.0485071632,
         "Education":0.0128881398,
@@ -127,7 +127,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Males",
+        "Sex":"Males",
         "Age":"0-4",
         "Employment":0.1433465577,
         "Education":0.3812627623,
@@ -141,7 +141,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Males",
+        "Sex":"Males",
         "Age":"5-11",
         "Employment":0.1433465577,
         "Education":0.3812627623,
@@ -155,7 +155,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Males",
+        "Sex":"Males",
         "Age":"12-17",
         "Employment":0.1531818314,
         "Education":0.353860385,
@@ -169,7 +169,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Males",
+        "Sex":"Males",
         "Age":"18-22",
         "Employment":0.2598097574,
         "Education":0.1393971151,
@@ -183,7 +183,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Males",
+        "Sex":"Males",
         "Age":"23-34",
         "Employment":0.3538362272,
         "Education":0.0568907092,
@@ -197,7 +197,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Males",
+        "Sex":"Males",
         "Age":"35-49",
         "Employment":0.3632487202,
         "Education":0.0930827099,
@@ -211,7 +211,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Males",
+        "Sex":"Males",
         "Age":"50-64",
         "Employment":0.291046902,
         "Education":0.037648137,
@@ -225,7 +225,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Males",
+        "Sex":"Males",
         "Age":"65-74",
         "Employment":0.1454258483,
         "Education":0.0144667162,
@@ -239,7 +239,7 @@
     },
     {
         "Year":2024,
-        "Sex [note 2]":"Males",
+        "Sex":"Males",
         "Age":"75+",
         "Employment":0.0737354649,
         "Education":0.0145852835,
