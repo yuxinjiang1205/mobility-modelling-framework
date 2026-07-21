@@ -42,38 +42,30 @@ def apply_travel_mode_constraint(
     car_ownership,
     travel_mode_probabilities,
 ):
-    constrained = deepcopy(
-        travel_mode_probabilities
-    )
+    constrained = deepcopy(travel_mode_probabilities)
 
-    young_age_groups = {
-        "0-4",
-        "5-11",
-    }
-
+    young_age_groups = {"0-4", "5-11"}
     no_household_car = (
-        car_ownership
-        == "No cars or vans in household"
+        car_ownership == "No cars or vans in household"
     )
 
     modes_to_remove = set()
 
+    # Young children cannot drive a car or motorcycle.
     if age in young_age_groups:
         modes_to_remove.update({
             "Car or van driver",
             "Motorcycle",
         })
 
+    # A household without a car cannot support car-driver travel.
     if no_household_car:
-        modes_to_remove.add(
-            "Car or van driver"
-        )
+        modes_to_remove.update({
+            "Car or van driver",
+            "Car or van passenger",
+        })
 
-        if age in young_age_groups:
-            modes_to_remove.add(
-                "Car or van passenger"
-            )
-
+    # Preserve unaffected distributions exactly as they are.
     if not modes_to_remove:
         return constrained
 
@@ -84,12 +76,10 @@ def apply_travel_mode_constraint(
 
     if total <= 0:
         raise ValueError(
-            "No feasible travel-mode "
-            "probability remains."
+            "No feasible travel-mode probability remains."
         )
 
     return {
         mode: probability / total
-        for mode, probability
-        in constrained.items()
+        for mode, probability in constrained.items()
     }
