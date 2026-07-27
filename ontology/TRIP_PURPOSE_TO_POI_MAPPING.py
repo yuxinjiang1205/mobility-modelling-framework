@@ -58,7 +58,7 @@ TRIP_PURPOSE_TO_POI_MAPPING = pd.DataFrame(
     ],
 
     columns=[
-        "Unified Trip Purpose",
+        "Shared Trip Purpose",
         "Mapping Strategy",
         "POI Categories"
     ]
