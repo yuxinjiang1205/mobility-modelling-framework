@@ -1,4 +1,4 @@
-UNIFIED_TRIP_PURPOSE = [
+SHARED_TRIP_PURPOSE = [
     "Commuting",
     "Business",
     "Education",
