@@ -292,8 +292,8 @@ def _extract_trip_purpose_distribution(
 ):
     """
     Extract the NTS0611a trip-purpose
-    distribution matching the individual's
-    age and gender.
+    distribution matching the demographic
+    profile's age and gender.
     """
     trip_purpose_distribution = {}
 
@@ -484,8 +484,7 @@ def construct_constrained_behaviour_profile(
 
     The returned representation contains:
 
-    - the individual's eight demographic
-      attributes;
+    - the representative profile's eight demographic attributes;
     - a demographically constrained
       trip-purpose distribution;
     - an NTS0502b temporal distribution for
