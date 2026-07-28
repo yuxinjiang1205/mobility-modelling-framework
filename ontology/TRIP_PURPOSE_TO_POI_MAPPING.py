@@ -64,3 +64,8 @@ TRIP_PURPOSE_TO_POI_MAPPING = pd.DataFrame(
     ]
 
 )
+
+EXCLUDED_DESTINATION_OUTCOMES = {
+    "Visiting Friends at Private Home":
+        "Private Residence (Outside POI Scope)"
+}
