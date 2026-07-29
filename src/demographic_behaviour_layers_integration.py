@@ -262,7 +262,7 @@ def _retrieve_evidence_records(
 ):
     """
     Retrieve and standardise one NTS evidence
-    component for a unified trip purpose.
+    component for a shared trip purpose.
     """
     if evidence_key not in evidence:
         raise KeyError(
@@ -292,8 +292,7 @@ def _extract_trip_purpose_distribution(
 ):
     """
     Extract the NTS0611a trip-purpose
-    distribution matching the demographic
-    profile's age and gender.
+    distribution matching the representative population's age and gender.
     """
     trip_purpose_distribution = {}
 
@@ -395,7 +394,7 @@ def _extract_purpose_conditioned_distributions(
     """
     Extract the NTS0502b temporal distribution
     and NTS0409a travel-mode distribution for
-    one unified trip purpose.
+    one shared trip purpose.
     """
     nts0502b_profiles = (
         _retrieve_evidence_records(
@@ -480,11 +479,11 @@ def construct_constrained_behaviour_profile(
     """
     Construct the constrained behavioural
     representation for one feasible
-    representative demographic profile.
+    representative population.
 
     The returned representation contains:
 
-    - the representative profile's eight demographic attributes;
+    - the representative population's eight demographic attributes;
     - a demographically constrained
       trip-purpose distribution;
     - an NTS0502b temporal distribution for
