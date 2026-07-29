@@ -50,8 +50,8 @@ PROBABILITY_TOLERANCE = 1e-8
 # Input Conversion
 # ==========================================
 
-def _convert_demographic_profile_to_dict(
-    demographic_profile,
+def convert_representative_population_to_dict(
+    representative_population,
 ):
     """
     Convert one demographic profile into a
@@ -63,17 +63,17 @@ def _convert_demographic_profile_to_dict(
     method.
     """
     if isinstance(
-        demographic_profile,
+        representative_population,
         Mapping,
     ):
-        return dict(demographic_profile)
+        return dict(representative_population)
 
     if hasattr(
-        demographic_profile,
+        representative_population,
         "to_dict",
     ):
         converted_profile = (
-            demographic_profile.to_dict()
+            representative_population.to_dict()
         )
 
         if isinstance(
@@ -83,10 +83,10 @@ def _convert_demographic_profile_to_dict(
             return dict(converted_profile)
 
     raise TypeError(
-        "Demographic profile must be provided "
+        "Representative population must be provided "
         "as a mapping or as an object with a "
         "to_dict() method. Received: "
-        f"{type(demographic_profile).__name__}."
+        f"{type(representative_population).__name__}."
     )
 
 
@@ -156,7 +156,7 @@ def _convert_evidence_records_to_list(
 # ==========================================
 
 def _validate_required_demographic_attributes(
-    demographic_profile,
+    representative_population,
 ):
     """
     Confirm that all eight required demographic
@@ -167,7 +167,7 @@ def _validate_required_demographic_attributes(
         for attribute
         in DEMOGRAPHIC_ATTRIBUTES
         if attribute
-        not in demographic_profile
+        not in representative_population
     ]
 
     if missing_attributes:
@@ -258,7 +258,7 @@ def _validate_probability_distribution(
 def _retrieve_evidence_records(
     evidence,
     evidence_key,
-    unified_purpose,
+    shared_trip_purpose,
 ):
     """
     Retrieve and standardise one NTS evidence
@@ -268,7 +268,7 @@ def _retrieve_evidence_records(
         raise KeyError(
             f"Missing evidence key "
             f"'{evidence_key}' for unified "
-            f"purpose '{unified_purpose}'."
+            f"purpose '{shared_trip_purpose}'."
         )
 
     return _convert_evidence_records_to_list(
@@ -277,7 +277,7 @@ def _retrieve_evidence_records(
         ],
         evidence_name=(
             f"{evidence_key} for "
-            f"{unified_purpose}"
+            f"{shared_trip_purpose}"
         ),
     )
 
@@ -287,7 +287,7 @@ def _retrieve_evidence_records(
 # ==========================================
 
 def _extract_trip_purpose_distribution(
-    demographic_profile,
+    representative_population,
     assembled_nts_evidence,
 ):
     """
@@ -298,7 +298,7 @@ def _extract_trip_purpose_distribution(
     trip_purpose_distribution = {}
 
     for (
-        unified_purpose,
+        shared_trip_purpose,
         evidence,
     ) in assembled_nts_evidence.items():
 
@@ -308,8 +308,8 @@ def _extract_trip_purpose_distribution(
                 evidence_key=(
                     NTS0611A_EVIDENCE_KEY
                 ),
-                unified_purpose=(
-                    unified_purpose
+                shared_trip_purpose=(
+                    shared_trip_purpose
                 ),
             )
         )
@@ -320,11 +320,11 @@ def _extract_trip_purpose_distribution(
             in nts0611a_profiles
             if (
                 nts0611a_profile.get("Age")
-                == demographic_profile["Age"]
+                == representative_population["Age"]
             )
             and (
                 nts0611a_profile.get("Gender")
-                == demographic_profile["Gender"]
+                == representative_population["Gender"]
             )
         ]
 
@@ -332,10 +332,10 @@ def _extract_trip_purpose_distribution(
             raise ValueError(
                 "Expected exactly one NTS0611a "
                 "trip-purpose profile for "
-                f"purpose={unified_purpose}, "
-                f"age={demographic_profile['Age']}, "
+                f"purpose={shared_trip_purpose}, "
+                f"age={representative_population['Age']}, "
                 "and gender="
-                f"{demographic_profile['Gender']}; "
+                f"{representative_population['Gender']}; "
                 f"found {len(matching_profiles)}."
             )
 
@@ -348,11 +348,11 @@ def _extract_trip_purpose_distribution(
             raise KeyError(
                 "Missing 'Trip Purpose Probability' "
                 "in the matching NTS0611a profile "
-                f"for {unified_purpose}."
+                f"for {shared_trip_purpose}."
             )
 
         trip_purpose_distribution[
-            unified_purpose
+            shared_trip_purpose
         ] = float(
             matching_profile[
                 "Trip Purpose Probability"
@@ -373,7 +373,7 @@ def _extract_trip_purpose_distribution(
 
 
 def _extract_probability_fields(
-    evidence_profile,
+    behavioural_evidence,
 ):
     """
     Remove source-identification fields and
@@ -382,14 +382,14 @@ def _extract_probability_fields(
     return {
         category: float(probability)
         for category, probability
-        in evidence_profile.items()
+        in behavioural_evidence.items()
         if category
         not in NON_PROBABILITY_FIELDS
     }
 
 
 def _extract_purpose_conditioned_distributions(
-    unified_purpose,
+    shared_trip_purpose,
     evidence,
 ):
     """
@@ -403,7 +403,7 @@ def _extract_purpose_conditioned_distributions(
             evidence_key=(
                 NTS0502B_EVIDENCE_KEY
             ),
-            unified_purpose=unified_purpose,
+            shared_trip_purpose=shared_trip_purpose,
         )
     )
 
@@ -413,7 +413,7 @@ def _extract_purpose_conditioned_distributions(
             evidence_key=(
                 NTS0409A_EVIDENCE_KEY
             ),
-            unified_purpose=unified_purpose,
+            shared_trip_purpose=shared_trip_purpose,
         )
     )
 
@@ -421,7 +421,7 @@ def _extract_purpose_conditioned_distributions(
         raise ValueError(
             "Expected exactly one NTS0502b "
             "temporal profile for "
-            f"purpose={unified_purpose}; "
+            f"purpose={shared_trip_purpose}; "
             f"found {len(nts0502b_profiles)}."
         )
 
@@ -429,7 +429,7 @@ def _extract_purpose_conditioned_distributions(
         raise ValueError(
             "Expected exactly one NTS0409a "
             "travel-mode profile for "
-            f"purpose={unified_purpose}; "
+            f"purpose={shared_trip_purpose}; "
             f"found {len(nts0409a_profiles)}."
         )
 
@@ -449,7 +449,7 @@ def _extract_purpose_conditioned_distributions(
         distribution=temporal_distribution,
         distribution_name=(
             "Original NTS0502b temporal "
-            f"distribution for {unified_purpose}"
+            f"distribution for {shared_trip_purpose}"
         ),
     )
 
@@ -459,7 +459,7 @@ def _extract_purpose_conditioned_distributions(
         ),
         distribution_name=(
             "Original NTS0409a travel-mode "
-            f"distribution for {unified_purpose}"
+            f"distribution for {shared_trip_purpose}"
         ),
     )
 
@@ -474,7 +474,7 @@ def _extract_purpose_conditioned_distributions(
 # ==========================================
 
 def construct_constrained_behaviour_profile(
-    demographic_profile,
+    representative_population,
     assembled_nts_evidence,
 ):
     """
@@ -496,14 +496,14 @@ def construct_constrained_behaviour_profile(
     This function does not sample a trip purpose,
     start time, or travel mode.
     """
-    demographic_profile = (
-        _convert_demographic_profile_to_dict(
-            demographic_profile
+    representative_population = (
+        convert_representative_population_to_dict(
+            representative_population
         )
     )
 
     _validate_required_demographic_attributes(
-        demographic_profile
+        representative_population
     )
 
     if not isinstance(
@@ -526,8 +526,8 @@ def construct_constrained_behaviour_profile(
 
     original_trip_purpose_distribution = (
         _extract_trip_purpose_distribution(
-            demographic_profile=(
-                demographic_profile
+            representative_population=(
+                representative_population
             ),
             assembled_nts_evidence=(
                 assembled_nts_evidence
@@ -541,7 +541,7 @@ def construct_constrained_behaviour_profile(
 
     constrained_trip_purpose_distribution = (
         apply_trip_purpose_constraint(
-            profile=demographic_profile,
+            profile=representative_population,
             trip_purpose_probabilities=(
                 original_trip_purpose_distribution
             ),
@@ -565,24 +565,24 @@ def construct_constrained_behaviour_profile(
     purpose_conditioned_distributions = {}
 
     for (
-        unified_purpose,
+        shared_trip_purpose,
         trip_purpose_probability,
     ) in (
         constrained_trip_purpose_distribution
         .items()
     ):
         if (
-            unified_purpose
+            shared_trip_purpose
             not in assembled_nts_evidence
         ):
             raise KeyError(
                 "No assembled NTS evidence was "
                 "found for constrained purpose "
-                f"'{unified_purpose}'."
+                f"'{shared_trip_purpose}'."
             )
 
         evidence = assembled_nts_evidence[
-            unified_purpose
+            shared_trip_purpose
         ]
 
         (
@@ -590,8 +590,8 @@ def construct_constrained_behaviour_profile(
             original_travel_mode_distribution,
         ) = (
             _extract_purpose_conditioned_distributions(
-                unified_purpose=(
-                    unified_purpose
+                shared_trip_purpose=(
+                    shared_trip_purpose
                 ),
                 evidence=evidence,
             )
@@ -599,9 +599,9 @@ def construct_constrained_behaviour_profile(
 
         constrained_travel_mode_distribution = (
             apply_travel_mode_constraint(
-                age=demographic_profile["Age"],
+                age=representative_population["Age"],
                 car_ownership=(
-                    demographic_profile[
+                    representative_population[
                         "Car Ownership"
                     ]
                 ),
@@ -618,12 +618,12 @@ def construct_constrained_behaviour_profile(
             distribution_name=(
                 "Constrained travel-mode "
                 "distribution for "
-                f"{unified_purpose}"
+                f"{shared_trip_purpose}"
             ),
         )
 
         purpose_conditioned_distributions[
-            unified_purpose
+            shared_trip_purpose
         ] = {
             "trip_purpose_probability": float(
                 trip_purpose_probability
@@ -642,7 +642,7 @@ def construct_constrained_behaviour_profile(
 
     return {
         "demographic_profile": {
-            attribute: demographic_profile[
+            attribute: representative_population[
                 attribute
             ]
             for attribute
