@@ -7,15 +7,33 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
         "Age":"0-4",
-        "Ethnic Count":3717
+        "Ethnic Count":438
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
+        "Ethnic Group":"White: Gypsy or Irish Traveller",
         "Age":"0-4",
-        "Ethnic Count":1030
+        "Ethnic Count":37
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"White: English, Welsh, Scottish, Northern Irish or British",
+        "Age":"0-4",
+        "Ethnic Count":11869
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
+        "Age":"0-4",
+        "Ethnic Count":959
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
+        "Age":"0-4",
+        "Ethnic Count":3717
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -25,15 +43,45 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
         "Age":"0-4",
-        "Ethnic Count":438
+        "Ethnic Count":6082
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Other ethnic group: Arab",
+        "Age":"0-4",
+        "Ethnic Count":1558
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Asian",
+        "Age":"0-4",
+        "Ethnic Count":854
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
+        "Age":"0-4",
+        "Ethnic Count":1030
     },
     {
         "Lower tier local authorities":"Manchester",
         "Ethnic Group":"White: Other White",
         "Age":"0-4",
         "Ethnic Count":1314
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black African",
+        "Age":"0-4",
+        "Ethnic Count":864
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
+        "Age":"0-4",
+        "Ethnic Count":953
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -49,39 +97,9 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
         "Age":"0-4",
-        "Ethnic Count":953
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Does not apply",
-        "Age":"0-4",
-        "Ethnic Count":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
-        "Age":"0-4",
-        "Ethnic Count":6082
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
-        "Age":"0-4",
-        "Ethnic Count":959
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: English, Welsh, Scottish, Northern Irish or British",
-        "Age":"0-4",
-        "Ethnic Count":11869
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Asian",
-        "Age":"0-4",
-        "Ethnic Count":854
+        "Ethnic Count":1143
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -97,93 +115,9 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black African",
-        "Age":"0-4",
-        "Ethnic Count":864
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Gypsy or Irish Traveller",
-        "Age":"0-4",
-        "Ethnic Count":37
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Other ethnic group: Arab",
-        "Age":"0-4",
-        "Ethnic Count":1558
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
-        "Age":"0-4",
-        "Ethnic Count":1143
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
-        "Age":"5-11",
-        "Ethnic Count":1139
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
-        "Age":"5-11",
-        "Ethnic Count":9150
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
-        "Age":"5-11",
-        "Ethnic Count":6732
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Other ethnic group: Any other ethnic group",
-        "Age":"5-11",
-        "Ethnic Count":1542
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
-        "Age":"5-11",
-        "Ethnic Count":1818
-    },
-    {
-        "Lower tier local authorities":"Manchester",
         "Ethnic Group":"White: Other White",
         "Age":"5-11",
         "Ethnic Count":1976
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black African",
-        "Age":"5-11",
-        "Ethnic Count":1136
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
-        "Age":"5-11",
-        "Ethnic Count":1801
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: English, Welsh, Scottish, Northern Irish or British",
-        "Age":"5-11",
-        "Ethnic Count":17270
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Asian",
-        "Age":"5-11",
-        "Ethnic Count":1108
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Gypsy or Irish Traveller",
-        "Age":"5-11",
-        "Ethnic Count":66
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -193,39 +127,27 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Does not apply",
+        "Ethnic Group":"White: English, Welsh, Scottish, Northern Irish or British",
         "Age":"5-11",
-        "Ethnic Count":0
+        "Ethnic Count":17270
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
+        "Age":"5-11",
+        "Ethnic Count":1801
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
+        "Age":"5-11",
+        "Ethnic Count":6732
     },
     {
         "Lower tier local authorities":"Manchester",
         "Ethnic Group":"Other ethnic group: Arab",
         "Age":"5-11",
         "Ethnic Count":2259
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Irish",
-        "Age":"5-11",
-        "Ethnic Count":138
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
-        "Age":"5-11",
-        "Ethnic Count":1358
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
-        "Age":"5-11",
-        "Ethnic Count":1225
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Chinese",
-        "Age":"5-11",
-        "Ethnic Count":699
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -241,39 +163,75 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Does not apply",
-        "Age":"12-17",
-        "Ethnic Count":0
+        "Ethnic Group":"White: Gypsy or Irish Traveller",
+        "Age":"5-11",
+        "Ethnic Count":66
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
-        "Age":"12-17",
-        "Ethnic Count":1403
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
+        "Age":"5-11",
+        "Ethnic Count":1818
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: English, Welsh, Scottish, Northern Irish or British",
-        "Age":"12-17",
-        "Ethnic Count":13779
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
+        "Age":"5-11",
+        "Ethnic Count":9150
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Other ethnic group: Arab",
-        "Age":"12-17",
-        "Ethnic Count":1766
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Chinese",
+        "Age":"5-11",
+        "Ethnic Count":699
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
-        "Age":"12-17",
-        "Ethnic Count":719
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black African",
+        "Age":"5-11",
+        "Ethnic Count":1136
     },
     {
         "Lower tier local authorities":"Manchester",
         "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
+        "Age":"5-11",
+        "Ethnic Count":1139
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"White: Irish",
+        "Age":"5-11",
+        "Ethnic Count":138
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Asian",
+        "Age":"5-11",
+        "Ethnic Count":1108
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
+        "Age":"5-11",
+        "Ethnic Count":1225
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
+        "Age":"5-11",
+        "Ethnic Count":1358
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Other ethnic group: Any other ethnic group",
+        "Age":"5-11",
+        "Ethnic Count":1542
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black African",
         "Age":"12-17",
-        "Ethnic Count":760
+        "Ethnic Count":796
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -283,9 +241,21 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
+        "Ethnic Group":"White: English, Welsh, Scottish, Northern Irish or British",
         "Age":"12-17",
-        "Ethnic Count":925
+        "Ethnic Count":13779
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
+        "Age":"12-17",
+        "Ethnic Count":929
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
+        "Age":"12-17",
+        "Ethnic Count":719
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -301,21 +271,15 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
+        "Ethnic Group":"White: Gypsy or Irish Traveller",
         "Age":"12-17",
-        "Ethnic Count":6184
+        "Ethnic Count":60
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black African",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
         "Age":"12-17",
-        "Ethnic Count":796
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
-        "Age":"12-17",
-        "Ethnic Count":7478
+        "Ethnic Count":1403
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -337,15 +301,27 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
-        "Age":"12-17",
-        "Ethnic Count":929
-    },
-    {
-        "Lower tier local authorities":"Manchester",
         "Ethnic Group":"White: Irish",
         "Age":"12-17",
         "Ethnic Count":169
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
+        "Age":"12-17",
+        "Ethnic Count":925
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
+        "Age":"12-17",
+        "Ethnic Count":7478
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Other ethnic group: Arab",
+        "Age":"12-17",
+        "Ethnic Count":1766
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -355,21 +331,33 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Gypsy or Irish Traveller",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
         "Age":"12-17",
-        "Ethnic Count":60
+        "Ethnic Count":6184
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: English, Welsh, Scottish, Northern Irish or British",
-        "Age":"18-22",
-        "Ethnic Count":32291
+        "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
+        "Age":"12-17",
+        "Ethnic Count":760
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Chinese",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
         "Age":"18-22",
-        "Ethnic Count":2478
+        "Ethnic Count":907
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Other ethnic group: Any other ethnic group",
+        "Age":"18-22",
+        "Ethnic Count":1181
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black African",
+        "Age":"18-22",
+        "Ethnic Count":595
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -385,27 +373,9 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
         "Age":"18-22",
-        "Ethnic Count":907
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
-        "Age":"18-22",
-        "Ethnic Count":1265
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Does not apply",
-        "Age":"18-22",
-        "Ethnic Count":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black African",
-        "Age":"18-22",
-        "Ethnic Count":595
+        "Ethnic Count":543
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -415,63 +385,9 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Irish",
-        "Age":"18-22",
-        "Ethnic Count":753
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
-        "Age":"18-22",
-        "Ethnic Count":1780
-    },
-    {
-        "Lower tier local authorities":"Manchester",
         "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
         "Age":"18-22",
         "Ethnic Count":1502
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Other ethnic group: Any other ethnic group",
-        "Age":"18-22",
-        "Ethnic Count":1181
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Bangladeshi",
-        "Age":"18-22",
-        "Ethnic Count":927
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
-        "Age":"18-22",
-        "Ethnic Count":543
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
-        "Age":"18-22",
-        "Ethnic Count":5474
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Roma",
-        "Age":"18-22",
-        "Ethnic Count":87
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
-        "Age":"18-22",
-        "Ethnic Count":791
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
-        "Age":"18-22",
-        "Ethnic Count":4429
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -481,45 +397,63 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
-        "Age":"23-34",
-        "Ethnic Count":2749
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Other White",
-        "Age":"23-34",
-        "Ethnic Count":11444
+        "Ethnic Group":"White: Irish",
+        "Age":"18-22",
+        "Ethnic Count":753
     },
     {
         "Lower tier local authorities":"Manchester",
         "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
-        "Age":"23-34",
-        "Ethnic Count":12180
+        "Age":"18-22",
+        "Ethnic Count":5474
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: English, Welsh, Scottish, Northern Irish or British",
-        "Age":"23-34",
-        "Ethnic Count":61889
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
+        "Age":"18-22",
+        "Ethnic Count":1780
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Chinese",
+        "Age":"18-22",
+        "Ethnic Count":2478
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
+        "Age":"18-22",
+        "Ethnic Count":4429
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
+        "Age":"18-22",
+        "Ethnic Count":1265
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
+        "Age":"18-22",
+        "Ethnic Count":791
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Bangladeshi",
+        "Age":"18-22",
+        "Ethnic Count":927
     },
     {
         "Lower tier local authorities":"Manchester",
         "Ethnic Group":"White: Roma",
-        "Age":"23-34",
-        "Ethnic Count":397
+        "Age":"18-22",
+        "Ethnic Count":87
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Asian",
-        "Age":"23-34",
-        "Ethnic Count":1374
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Gypsy or Irish Traveller",
-        "Age":"23-34",
-        "Ethnic Count":89
+        "Ethnic Group":"White: English, Welsh, Scottish, Northern Irish or British",
+        "Age":"18-22",
+        "Ethnic Count":32291
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -529,63 +463,9 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Asian",
         "Age":"23-34",
-        "Ethnic Count":2354
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
-        "Age":"23-34",
-        "Ethnic Count":1590
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Irish",
-        "Age":"23-34",
-        "Ethnic Count":1640
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
-        "Age":"23-34",
-        "Ethnic Count":1747
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Bangladeshi",
-        "Age":"23-34",
-        "Ethnic Count":1751
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Other ethnic group: Any other ethnic group",
-        "Age":"23-34",
-        "Ethnic Count":3105
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
-        "Age":"23-34",
-        "Ethnic Count":4333
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Does not apply",
-        "Age":"23-34",
-        "Ethnic Count":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
-        "Age":"23-34",
-        "Ethnic Count":733
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Other ethnic group: Arab",
-        "Age":"23-34",
-        "Ethnic Count":2792
+        "Ethnic Count":1374
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -595,15 +475,99 @@
     },
     {
         "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
+        "Age":"23-34",
+        "Ethnic Count":4333
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Other ethnic group: Any other ethnic group",
+        "Age":"23-34",
+        "Ethnic Count":3105
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"White: Roma",
+        "Age":"23-34",
+        "Ethnic Count":397
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Bangladeshi",
+        "Age":"23-34",
+        "Ethnic Count":1751
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"White: Other White",
+        "Age":"23-34",
+        "Ethnic Count":11444
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"White: English, Welsh, Scottish, Northern Irish or British",
+        "Age":"23-34",
+        "Ethnic Count":61889
+    },
+    {
+        "Lower tier local authorities":"Manchester",
         "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
         "Age":"23-34",
         "Ethnic Count":8267
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: English, Welsh, Scottish, Northern Irish or British",
-        "Age":"35-49",
-        "Ethnic Count":46464
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
+        "Age":"23-34",
+        "Ethnic Count":733
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
+        "Age":"23-34",
+        "Ethnic Count":1747
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"White: Gypsy or Irish Traveller",
+        "Age":"23-34",
+        "Ethnic Count":89
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
+        "Age":"23-34",
+        "Ethnic Count":2749
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
+        "Age":"23-34",
+        "Ethnic Count":2354
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Other ethnic group: Arab",
+        "Age":"23-34",
+        "Ethnic Count":2792
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
+        "Age":"23-34",
+        "Ethnic Count":12180
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"White: Irish",
+        "Age":"23-34",
+        "Ethnic Count":1640
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
+        "Age":"23-34",
+        "Ethnic Count":1590
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -613,69 +577,9 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Bangladeshi",
+        "Ethnic Group":"White: Gypsy or Irish Traveller",
         "Age":"35-49",
-        "Ethnic Count":2370
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
-        "Age":"35-49",
-        "Ethnic Count":1228
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Irish",
-        "Age":"35-49",
-        "Ethnic Count":1486
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
-        "Age":"35-49",
-        "Ethnic Count":3692
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
-        "Age":"35-49",
-        "Ethnic Count":2878
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
-        "Age":"35-49",
-        "Ethnic Count":14655
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
-        "Age":"35-49",
-        "Ethnic Count":11915
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Roma",
-        "Age":"35-49",
-        "Ethnic Count":200
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
-        "Age":"35-49",
-        "Ethnic Count":1926
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black African",
-        "Age":"35-49",
-        "Ethnic Count":917
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Other ethnic group: Any other ethnic group",
-        "Age":"35-49",
-        "Ethnic Count":3426
+        "Ethnic Count":115
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -685,27 +589,33 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Does not apply",
+        "Ethnic Group":"Other ethnic group: Any other ethnic group",
         "Age":"35-49",
-        "Ethnic Count":0
+        "Ethnic Count":3426
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
+        "Ethnic Group":"White: Roma",
         "Age":"35-49",
-        "Ethnic Count":997
+        "Ethnic Count":200
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Chinese",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
         "Age":"35-49",
-        "Ethnic Count":2301
+        "Ethnic Count":1228
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Gypsy or Irish Traveller",
+        "Ethnic Group":"White: English, Welsh, Scottish, Northern Irish or British",
         "Age":"35-49",
-        "Ethnic Count":115
+        "Ethnic Count":46464
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"White: Irish",
+        "Age":"35-49",
+        "Ethnic Count":1486
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -715,9 +625,87 @@
     },
     {
         "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
+        "Age":"35-49",
+        "Ethnic Count":3692
+    },
+    {
+        "Lower tier local authorities":"Manchester",
         "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
         "Age":"35-49",
         "Ethnic Count":844
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
+        "Age":"35-49",
+        "Ethnic Count":2878
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Chinese",
+        "Age":"35-49",
+        "Ethnic Count":2301
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
+        "Age":"35-49",
+        "Ethnic Count":997
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
+        "Age":"35-49",
+        "Ethnic Count":1926
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
+        "Age":"35-49",
+        "Ethnic Count":11915
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black African",
+        "Age":"35-49",
+        "Ethnic Count":917
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Bangladeshi",
+        "Age":"35-49",
+        "Ethnic Count":2370
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
+        "Age":"35-49",
+        "Ethnic Count":14655
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
+        "Age":"50-64",
+        "Ethnic Count":1228
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"White: Irish",
+        "Age":"50-64",
+        "Ethnic Count":1980
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
+        "Age":"50-64",
+        "Ethnic Count":7650
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
+        "Age":"50-64",
+        "Ethnic Count":915
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -727,9 +715,9 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Other ethnic group: Any other ethnic group",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
         "Age":"50-64",
-        "Ethnic Count":1335
+        "Ethnic Count":1266
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -739,15 +727,33 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black African",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
         "Age":"50-64",
-        "Ethnic Count":512
+        "Ethnic Count":2594
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Bangladeshi",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
         "Age":"50-64",
-        "Ethnic Count":1004
+        "Ethnic Count":5539
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"White: Gypsy or Irish Traveller",
+        "Age":"50-64",
+        "Ethnic Count":102
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
+        "Age":"50-64",
+        "Ethnic Count":739
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"White: Other White",
+        "Age":"50-64",
+        "Ethnic Count":3168
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -763,63 +769,9 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
+        "Ethnic Group":"Other ethnic group: Any other ethnic group",
         "Age":"50-64",
-        "Ethnic Count":1266
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
-        "Age":"50-64",
-        "Ethnic Count":1228
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
-        "Age":"50-64",
-        "Ethnic Count":7650
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
-        "Age":"50-64",
-        "Ethnic Count":739
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
-        "Age":"50-64",
-        "Ethnic Count":5539
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
-        "Age":"50-64",
-        "Ethnic Count":915
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Gypsy or Irish Traveller",
-        "Age":"50-64",
-        "Ethnic Count":102
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Does not apply",
-        "Age":"50-64",
-        "Ethnic Count":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Irish",
-        "Age":"50-64",
-        "Ethnic Count":1980
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
-        "Age":"50-64",
-        "Ethnic Count":414
+        "Ethnic Count":1335
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -829,21 +781,21 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Other White",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
         "Age":"50-64",
-        "Ethnic Count":3168
+        "Ethnic Count":414
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Bangladeshi",
         "Age":"50-64",
-        "Ethnic Count":2594
+        "Ethnic Count":1004
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: English, Welsh, Scottish, Northern Irish or British",
-        "Age":"65-74",
-        "Ethnic Count":22019
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black African",
+        "Age":"50-64",
+        "Ethnic Count":512
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -853,27 +805,21 @@
     },
     {
         "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Chinese",
+        "Age":"65-74",
+        "Ethnic Count":492
+    },
+    {
+        "Lower tier local authorities":"Manchester",
         "Ethnic Group":"White: Other White",
         "Age":"65-74",
         "Ethnic Count":720
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Other ethnic group: Any other ethnic group",
+        "Ethnic Group":"White: Irish",
         "Age":"65-74",
-        "Ethnic Count":403
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Bangladeshi",
-        "Age":"65-74",
-        "Ethnic Count":249
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Chinese",
-        "Age":"65-74",
-        "Ethnic Count":492
+        "Ethnic Count":1502
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -889,51 +835,9 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Bangladeshi",
         "Age":"65-74",
-        "Ethnic Count":2043
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
-        "Age":"65-74",
-        "Ethnic Count":705
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
-        "Age":"65-74",
-        "Ethnic Count":664
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
-        "Age":"65-74",
-        "Ethnic Count":123
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Does not apply",
-        "Age":"65-74",
-        "Ethnic Count":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
-        "Age":"65-74",
-        "Ethnic Count":98
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Roma",
-        "Age":"65-74",
-        "Ethnic Count":8
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Asian",
-        "Age":"65-74",
-        "Ethnic Count":44
+        "Ethnic Count":249
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -943,9 +847,15 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
         "Age":"65-74",
-        "Ethnic Count":104
+        "Ethnic Count":123
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
+        "Age":"65-74",
+        "Ethnic Count":2043
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -955,15 +865,51 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Irish",
+        "Ethnic Group":"Other ethnic group: Any other ethnic group",
         "Age":"65-74",
-        "Ethnic Count":1502
+        "Ethnic Count":403
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Other White",
-        "Age":"75+",
-        "Ethnic Count":427
+        "Ethnic Group":"White: Roma",
+        "Age":"65-74",
+        "Ethnic Count":8
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"White: English, Welsh, Scottish, Northern Irish or British",
+        "Age":"65-74",
+        "Ethnic Count":22019
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
+        "Age":"65-74",
+        "Ethnic Count":664
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Asian",
+        "Age":"65-74",
+        "Ethnic Count":44
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
+        "Age":"65-74",
+        "Ethnic Count":705
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
+        "Age":"65-74",
+        "Ethnic Count":104
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: Other Mixed or Multiple ethnic groups",
+        "Age":"65-74",
+        "Ethnic Count":98
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -973,81 +919,15 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Gypsy or Irish Traveller",
-        "Age":"75+",
-        "Ethnic Count":18
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Bangladeshi",
-        "Age":"75+",
-        "Ethnic Count":143
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Chinese",
-        "Age":"75+",
-        "Ethnic Count":324
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
-        "Age":"75+",
-        "Ethnic Count":269
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
-        "Age":"75+",
-        "Ethnic Count":115
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
-        "Age":"75+",
-        "Ethnic Count":1166
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
-        "Age":"75+",
-        "Ethnic Count":368
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
-        "Age":"75+",
-        "Ethnic Count":950
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
-        "Age":"75+",
-        "Ethnic Count":74
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Does not apply",
-        "Age":"75+",
-        "Ethnic Count":0
-    },
-    {
-        "Lower tier local authorities":"Manchester",
         "Ethnic Group":"Mixed or Multiple ethnic groups: White and Asian",
         "Age":"75+",
         "Ethnic Count":19
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black African",
+        "Ethnic Group":"White: Other White",
         "Age":"75+",
-        "Ethnic Count":44
-    },
-    {
-        "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
-        "Age":"75+",
-        "Ethnic Count":33
+        "Ethnic Count":427
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -1057,9 +937,51 @@
     },
     {
         "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black Caribbean",
+        "Age":"75+",
+        "Ethnic Count":33
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Bangladeshi",
+        "Age":"75+",
+        "Ethnic Count":143
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Pakistani",
+        "Age":"75+",
+        "Ethnic Count":1166
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Other Black",
+        "Age":"75+",
+        "Ethnic Count":74
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Indian",
+        "Age":"75+",
+        "Ethnic Count":269
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"White: Irish",
+        "Age":"75+",
+        "Ethnic Count":1676
+    },
+    {
+        "Lower tier local authorities":"Manchester",
         "Ethnic Group":"Other ethnic group: Arab",
         "Age":"75+",
         "Ethnic Count":101
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: Caribbean",
+        "Age":"75+",
+        "Ethnic Count":950
     },
     {
         "Lower tier local authorities":"Manchester",
@@ -1069,9 +991,33 @@
     },
     {
         "Lower tier local authorities":"Manchester",
-        "Ethnic Group":"White: Irish",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Other Asian",
         "Age":"75+",
-        "Ethnic Count":1676
+        "Ethnic Count":115
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Black, Black British, Black Welsh, Caribbean or African: African",
+        "Age":"75+",
+        "Ethnic Count":368
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"White: Gypsy or Irish Traveller",
+        "Age":"75+",
+        "Ethnic Count":18
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Mixed or Multiple ethnic groups: White and Black African",
+        "Age":"75+",
+        "Ethnic Count":44
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Ethnic Group":"Asian, Asian British or Asian Welsh: Chinese",
+        "Age":"75+",
+        "Ethnic Count":324
     },
     {
         "Lower tier local authorities":"Manchester",
