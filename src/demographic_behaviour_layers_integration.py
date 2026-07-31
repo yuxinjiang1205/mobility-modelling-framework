@@ -83,14 +83,14 @@ def convert_representative_population_to_dict(
             return dict(converted_profile)
 
     raise TypeError(
-        "Representative population must be provided "
+        "Representative population profile must be provided "
         "as a mapping or as an object with a "
         "to_dict() method. Received: "
         f"{type(representative_population).__name__}."
     )
 
 
-def _convert_evidence_records_to_list(
+def convert_evidence_records_to_list(
     evidence_records,
     evidence_name,
 ):
@@ -155,7 +155,7 @@ def _convert_evidence_records_to_list(
 # Validation
 # ==========================================
 
-def _validate_required_demographic_attributes(
+def validate_required_demographic_attributes(
     representative_population,
 ):
     """
@@ -178,7 +178,7 @@ def _validate_required_demographic_attributes(
         )
 
 
-def _validate_probability_distribution(
+def validate_probability_distribution(
     distribution,
     distribution_name,
 ):
@@ -255,7 +255,7 @@ def _validate_probability_distribution(
         )
 
 
-def _retrieve_evidence_records(
+def retrieve_evidence_records(
     evidence,
     evidence_key,
     shared_trip_purpose,
@@ -271,7 +271,7 @@ def _retrieve_evidence_records(
             f"purpose '{shared_trip_purpose}'."
         )
 
-    return _convert_evidence_records_to_list(
+    return convert_evidence_records_to_list(
         evidence_records=evidence[
             evidence_key
         ],
@@ -286,9 +286,9 @@ def _retrieve_evidence_records(
 # Distribution Extraction
 # ==========================================
 
-def _extract_trip_purpose_distribution(
+def extract_trip_purpose_distribution(
     representative_population,
-    assembled_nts_evidence,
+    assembled_behavioural_evidence,
 ):
     """
     Extract the NTS0611a trip-purpose
@@ -299,10 +299,10 @@ def _extract_trip_purpose_distribution(
     for (
         shared_trip_purpose,
         evidence,
-    ) in assembled_nts_evidence.items():
+    ) in assembled_behavioural_evidence.items():
 
         nts0611a_profiles = (
-            _retrieve_evidence_records(
+            retrieve_evidence_records(
                 evidence=evidence,
                 evidence_key=(
                     NTS0611A_EVIDENCE_KEY
@@ -358,7 +358,7 @@ def _extract_trip_purpose_distribution(
             ]
         )
 
-    _validate_probability_distribution(
+    validate_probability_distribution(
         distribution=(
             trip_purpose_distribution
         ),
@@ -371,7 +371,7 @@ def _extract_trip_purpose_distribution(
     return trip_purpose_distribution
 
 
-def _extract_probability_fields(
+def extract_probability_fields(
     behavioural_evidence,
 ):
     """
@@ -387,7 +387,7 @@ def _extract_probability_fields(
     }
 
 
-def _extract_purpose_conditioned_distributions(
+def extract_purpose_conditioned_distributions(
     shared_trip_purpose,
     evidence,
 ):
@@ -397,7 +397,7 @@ def _extract_purpose_conditioned_distributions(
     one shared trip purpose.
     """
     nts0502b_profiles = (
-        _retrieve_evidence_records(
+        retrieve_evidence_records(
             evidence=evidence,
             evidence_key=(
                 NTS0502B_EVIDENCE_KEY
@@ -407,7 +407,7 @@ def _extract_purpose_conditioned_distributions(
     )
 
     nts0409a_profiles = (
-        _retrieve_evidence_records(
+        retrieve_evidence_records(
             evidence=evidence,
             evidence_key=(
                 NTS0409A_EVIDENCE_KEY
@@ -433,18 +433,18 @@ def _extract_purpose_conditioned_distributions(
         )
 
     temporal_distribution = (
-        _extract_probability_fields(
+        extract_probability_fields(
             nts0502b_profiles[0]
         )
     )
 
     travel_mode_distribution = (
-        _extract_probability_fields(
+        extract_probability_fields(
             nts0409a_profiles[0]
         )
     )
 
-    _validate_probability_distribution(
+    validate_probability_distribution(
         distribution=temporal_distribution,
         distribution_name=(
             "Original NTS0502b temporal "
@@ -452,7 +452,7 @@ def _extract_purpose_conditioned_distributions(
         ),
     )
 
-    _validate_probability_distribution(
+    validate_probability_distribution(
         distribution=(
             travel_mode_distribution
         ),
@@ -474,7 +474,7 @@ def _extract_purpose_conditioned_distributions(
 
 def construct_constrained_behaviour_profile(
     representative_population,
-    assembled_nts_evidence,
+    assembled_behavioural_evidence,
 ):
     """
     Construct the constrained behavioural
@@ -501,12 +501,12 @@ def construct_constrained_behaviour_profile(
         )
     )
 
-    _validate_required_demographic_attributes(
+    validate_required_demographic_attributes(
         representative_population
     )
 
     if not isinstance(
-        assembled_nts_evidence,
+        assembled_behavioural_evidence,
         Mapping,
     ):
         raise TypeError(
@@ -514,9 +514,9 @@ def construct_constrained_behaviour_profile(
             "provided as a dictionary."
         )
 
-    if not assembled_nts_evidence:
+    if not assembled_behavioural_evidence:
         raise ValueError(
-            "Assembled NTS evidence is empty."
+            "Assembled behavioural evidence is empty."
         )
 
     # ======================================
@@ -524,12 +524,12 @@ def construct_constrained_behaviour_profile(
     # ======================================
 
     original_trip_purpose_distribution = (
-        _extract_trip_purpose_distribution(
+        extract_trip_purpose_distribution(
             representative_population=(
                 representative_population
             ),
-            assembled_nts_evidence=(
-                assembled_nts_evidence
+            assembled_behavioural_evidence=(
+                assembled_behavioural_evidence
             ),
         )
     )
@@ -547,7 +547,7 @@ def construct_constrained_behaviour_profile(
         )
     )
 
-    _validate_probability_distribution(
+    validate_probability_distribution(
         distribution=(
             constrained_trip_purpose_distribution
         ),
@@ -572,15 +572,15 @@ def construct_constrained_behaviour_profile(
     ):
         if (
             shared_trip_purpose
-            not in assembled_nts_evidence
+            not in assembled_behavioural_evidence
         ):
             raise KeyError(
-                "No assembled NTS evidence was "
+                "No assembled behavioural evidence was "
                 "found for constrained purpose "
                 f"'{shared_trip_purpose}'."
             )
 
-        evidence = assembled_nts_evidence[
+        evidence = assembled_behavioural_evidence[
             shared_trip_purpose
         ]
 
@@ -588,7 +588,7 @@ def construct_constrained_behaviour_profile(
             temporal_distribution,
             original_travel_mode_distribution,
         ) = (
-            _extract_purpose_conditioned_distributions(
+            extract_purpose_conditioned_distributions(
                 shared_trip_purpose=(
                     shared_trip_purpose
                 ),
@@ -610,7 +610,7 @@ def construct_constrained_behaviour_profile(
             )
         )
 
-        _validate_probability_distribution(
+        validate_probability_distribution(
             distribution=(
                 constrained_travel_mode_distribution
             ),
