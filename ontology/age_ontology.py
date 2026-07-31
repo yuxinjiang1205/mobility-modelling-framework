@@ -1,4 +1,4 @@
-def age_group(age):
+def AGE_GROUP(age):
     if age <= 4:
         return "0-4"
     elif age <= 11:
@@ -18,7 +18,7 @@ def age_group(age):
     else:
         return "75+"
     
-age_order = [ "0-4",
+AGE_ORDER = [ "0-4",
              "5-11",
              "12-17",
              "18-22",
