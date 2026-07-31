@@ -70,4 +70,5 @@ POI_ONTOLOGY = {
 
     # Personal Services
     "Personal, Consumer and Other Services": "Personal Services"
+    
 }

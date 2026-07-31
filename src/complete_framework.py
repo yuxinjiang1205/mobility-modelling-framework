@@ -90,6 +90,13 @@ def construct_complete_framework(
                 "poi_distribution"
             ].copy()
         )
+        if (
+            opportunity_details["mapping_strategy"]
+            == "Excluded Mapping"
+        ):
+            distributions["allocation_outcome"] = (
+                opportunity_details["allocation_outcome"]
+            )
 
         distributions[
             "industry_refinement_applied"
@@ -212,6 +219,23 @@ def construct_complete_framework(
         trip_purpose_distributions.items()
     ):
 
+        if (
+            distributions["mapping_strategy"]
+            == "Excluded Mapping"
+        ):
+
+            opportunity_rows.append(
+                {
+                    "Trip Purpose": trip_purpose,
+                    "POI Category": distributions[
+                        "allocation_outcome"
+                    ],
+                    "Weight": None,
+                }
+            )
+
+            continue
+
         final_poi_distribution = distributions[
             "poi_distribution"
         ]
@@ -227,15 +251,6 @@ def construct_complete_framework(
                     "Weight": round(weight, 4),
                 }
             )
-
-    opportunity_dataframe = pd.DataFrame(
-        opportunity_rows,
-        columns=[
-            "Trip Purpose",
-            "POI Category",
-            "Weight",
-        ],
-    )
 
     # ==========================================================
     # 9. Store Presentation DataFrames
@@ -255,7 +270,7 @@ def construct_complete_framework(
             travel_mode_distribution_dataframe
         ),
         "opportunity_layer": (
-            opportunity_dataframe
+            pd.DataFrame(opportunity_rows)
         ),
     }
 
