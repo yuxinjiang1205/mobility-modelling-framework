@@ -7,7 +7,7 @@ from src.demographic_behaviour_layers_integration import (
 )
 
 def construct_complete_framework(
-    representative_population_profile,
+    representative_profile_profile,
     assembled_behavioural_evidence,
     opportunity_layer,
     industry_component,
@@ -47,7 +47,7 @@ def construct_complete_framework(
     complete_framework_profile = (
         construct_constrained_behaviour_profile(
             representative_population=(
-                representative_population_profile
+                representative_profile_profile
             ),
             assembled_behavioural_evidence=(
                 assembled_behavioural_evidence

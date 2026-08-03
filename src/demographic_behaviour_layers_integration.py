@@ -51,7 +51,7 @@ PROBABILITY_TOLERANCE = 1e-8
 # ==========================================
 
 def convert_representative_population_to_dict(
-    representative_population,
+    representative_profile,
 ):
     """
     Convert one demographic profile into a
@@ -63,17 +63,17 @@ def convert_representative_population_to_dict(
     method.
     """
     if isinstance(
-        representative_population,
+        representative_profile,
         Mapping,
     ):
-        return dict(representative_population)
+        return dict(representative_profile)
 
     if hasattr(
-        representative_population,
+        representative_profile,
         "to_dict",
     ):
         converted_profile = (
-            representative_population.to_dict()
+            representative_profile.to_dict()
         )
 
         if isinstance(
@@ -86,7 +86,7 @@ def convert_representative_population_to_dict(
         "Representative population profile must be provided "
         "as a mapping or as an object with a "
         "to_dict() method. Received: "
-        f"{type(representative_population).__name__}."
+        f"{type(representative_profile).__name__}."
     )
 
 
@@ -156,7 +156,7 @@ def convert_evidence_records_to_list(
 # ==========================================
 
 def validate_required_demographic_attributes(
-    representative_population,
+    representative_profile,
 ):
     """
     Confirm that all eight required demographic
@@ -167,7 +167,7 @@ def validate_required_demographic_attributes(
         for attribute
         in DEMOGRAPHIC_ATTRIBUTES
         if attribute
-        not in representative_population
+        not in representative_profile
     ]
 
     if missing_attributes:
