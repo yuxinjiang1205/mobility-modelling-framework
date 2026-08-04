@@ -50,7 +50,7 @@ PROBABILITY_TOLERANCE = 1e-8
 # Input Conversion
 # ==========================================
 
-def convert_representative_population_to_dict(
+def convert_representative_profile_to_dict(
     representative_profile,
 ):
     """
@@ -90,7 +90,7 @@ def convert_representative_population_to_dict(
     )
 
 
-def convert_evidence_records_to_list(
+def convert_nts_evidence_distribution_to_list(
     evidence_records,
     evidence_name,
 ):
@@ -271,7 +271,7 @@ def retrieve_evidence_records(
             f"purpose '{shared_trip_purpose}'."
         )
 
-    return convert_evidence_records_to_list(
+    return convert_nts_evidence_distribution_to_list(
         evidence_records=evidence[
             evidence_key
         ],
@@ -472,7 +472,7 @@ def extract_purpose_conditioned_distributions(
 # Demographic–Behavioural Integration
 # ==========================================
 
-def construct_constrained_behaviour_profile(
+def construct_constrained_behaviour_representation(
     representative_population,
     assembled_behavioural_evidence,
 ):
@@ -496,7 +496,7 @@ def construct_constrained_behaviour_profile(
     start time, or travel mode.
     """
     representative_population = (
-        convert_representative_population_to_dict(
+        convert_representative_profile_to_dict(
             representative_population
         )
     )

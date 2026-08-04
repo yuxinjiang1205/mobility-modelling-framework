@@ -3,11 +3,11 @@ import pandas as pd
 from IPython.display import Markdown, display
 
 from src.demographic_behaviour_layers_integration import (
-    construct_constrained_behaviour_profile
+    construct_constrained_behaviour_representation
 )
 
 def construct_complete_framework(
-    representative_profile_profile,
+    representative_profile,
     assembled_behavioural_evidence,
     opportunity_layer,
     industry_component,
@@ -18,7 +18,7 @@ def construct_complete_framework(
 
     Parameters
     ----------
-    representative_population_profile : pandas.Series
+    representative_profile : pandas.Series
         One representative population profile.
 
     assembled_behavioural_evidence : dict
@@ -45,9 +45,9 @@ def construct_complete_framework(
     # ==========================================================
 
     complete_framework_profile = (
-        construct_constrained_behaviour_profile(
+        construct_constrained_behaviour_representation(
             representative_population=(
-                representative_profile_profile
+                representative_profile
             ),
             assembled_behavioural_evidence=(
                 assembled_behavioural_evidence
