@@ -44,9 +44,9 @@ def construct_complete_framework(
     # 1. Construct Demographic and Behavioural Evidence Layers
     # ==========================================================
 
-    complete_framework_profile = (
+    complete_framework_representation = (
         construct_constrained_behaviour_representation(
-            representative_population=(
+            representative_profile=(
                 representative_profile
             ),
             assembled_behavioural_evidence=(
@@ -55,11 +55,11 @@ def construct_complete_framework(
         )
     )
 
-    demographic_profile = complete_framework_profile[
+    demographic_profile = complete_framework_representation[
         "demographic_profile"
     ]
 
-    trip_purpose_distributions = complete_framework_profile[
+    trip_purpose_distributions = complete_framework_representation[
         "behavioural_representation"
     ]["purpose_conditioned_distributions"]
 
@@ -279,7 +279,7 @@ def construct_complete_framework(
     # ==========================================================
 
     return (
-        complete_framework_profile,
+        complete_framework_representation,
         framework_dataframes,
     )
 

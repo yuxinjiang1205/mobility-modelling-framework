@@ -287,7 +287,7 @@ def retrieve_evidence_records(
 # ==========================================
 
 def extract_trip_purpose_distribution(
-    representative_population,
+    representative_profile,
     assembled_behavioural_evidence,
 ):
     """
@@ -319,11 +319,11 @@ def extract_trip_purpose_distribution(
             in nts0611a_profiles
             if (
                 nts0611a_profile.get("Age")
-                == representative_population["Age"]
+                == representative_profile["Age"]
             )
             and (
                 nts0611a_profile.get("Gender")
-                == representative_population["Gender"]
+                == representative_profile["Gender"]
             )
         ]
 
@@ -332,9 +332,9 @@ def extract_trip_purpose_distribution(
                 "Expected exactly one NTS0611a "
                 "trip-purpose profile for "
                 f"purpose={shared_trip_purpose}, "
-                f"age={representative_population['Age']}, "
+                f"age={representative_profile['Age']}, "
                 "and gender="
-                f"{representative_population['Gender']}; "
+                f"{representative_profile['Gender']}; "
                 f"found {len(matching_profiles)}."
             )
 
@@ -473,13 +473,13 @@ def extract_purpose_conditioned_distributions(
 # ==========================================
 
 def construct_constrained_behaviour_representation(
-    representative_population,
+    representative_profile,
     assembled_behavioural_evidence,
 ):
     """
     Construct the constrained behavioural
     representation for one feasible
-    representative population.
+    representative profile.
 
     The returned representation contains:
 
@@ -495,14 +495,14 @@ def construct_constrained_behaviour_representation(
     This function does not sample a trip purpose,
     start time, or travel mode.
     """
-    representative_population = (
+    representative_profile = (
         convert_representative_profile_to_dict(
-            representative_population
+            representative_profile
         )
     )
 
     validate_required_demographic_attributes(
-        representative_population
+        representative_profile
     )
 
     if not isinstance(
@@ -525,8 +525,8 @@ def construct_constrained_behaviour_representation(
 
     original_trip_purpose_distribution = (
         extract_trip_purpose_distribution(
-            representative_population=(
-                representative_population
+            representative_profile=(
+                representative_profile
             ),
             assembled_behavioural_evidence=(
                 assembled_behavioural_evidence
@@ -540,7 +540,7 @@ def construct_constrained_behaviour_representation(
 
     constrained_trip_purpose_distribution = (
         apply_trip_purpose_constraint(
-            profile=representative_population,
+            profile=representative_profile,
             trip_purpose_probabilities=(
                 original_trip_purpose_distribution
             ),
@@ -598,9 +598,9 @@ def construct_constrained_behaviour_representation(
 
         constrained_travel_mode_distribution = (
             apply_travel_mode_constraint(
-                age=representative_population["Age"],
+                age=representative_profile["Age"],
                 car_ownership=(
-                    representative_population[
+                    representative_profile[
                         "Car Ownership"
                     ]
                 ),
@@ -641,7 +641,7 @@ def construct_constrained_behaviour_representation(
 
     return {
         "demographic_profile": {
-            attribute: representative_population[
+            attribute: representative_profile[
                 attribute
             ]
             for attribute
