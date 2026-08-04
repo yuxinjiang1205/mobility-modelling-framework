@@ -159,7 +159,7 @@ def construct_constrained_behaviour_representation(
         profile, assembled_behavioural_evidence
     )
     trip_purpose = apply_trip_purpose_constraint(
-        profile=profile, trip_purpose_probabilities=trip_purpose
+        profile=profile, trip_purpose_distribution=trip_purpose
     )
     validate_probability_distribution(trip_purpose, "Constrained trip-purpose distribution")
 
@@ -173,7 +173,7 @@ def construct_constrained_behaviour_representation(
         travel_modes = apply_travel_mode_constraint(
             age=profile["Age"],
             car_ownership=profile["Car Ownership"],
-            travel_mode_probabilities=travel_modes,
+            travel_mode_distribution=travel_modes,
         )
         validate_probability_distribution(travel_modes, f"Constrained travel modes for {purpose}")
         conditioned_purpose[purpose] = {

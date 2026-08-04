@@ -3,10 +3,10 @@ from copy import deepcopy
 
 def apply_trip_purpose_constraint(
     profile,
-    trip_purpose_probabilities,
+    trip_purpose_distribution,
 ):
     constrained = deepcopy(
-        trip_purpose_probabilities
+        trip_purpose_distribution
     )
 
     if profile["Industry"] == "Does not apply":
@@ -40,9 +40,9 @@ def apply_trip_purpose_constraint(
 def apply_travel_mode_constraint(
     age,
     car_ownership,
-    travel_mode_probabilities,
+    travel_mode_distribution,
 ):
-    constrained = deepcopy(travel_mode_probabilities)
+    constrained = deepcopy(travel_mode_distribution)
 
     young_age_groups = {"0-4", "5-11"}
     no_household_car = (
