@@ -28,7 +28,7 @@ HOUSEHOLD_BY_AGE_ONTOLOGY = {
         "Single family household: Lone parent family: All children non-dependent"
     ],
 
-    "Older family household": [
+    "Older family household: All members aged 66+": [
         "Single family household: All aged 66 years and over"
     ],
 

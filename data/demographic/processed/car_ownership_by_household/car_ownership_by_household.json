@@ -14,7 +14,7 @@
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"No cars or vans in household",
-        "Household Type":"Older family household",
+        "Household Type":"Older family household: All members aged 66+",
         "Car Ownership Count":1637
     },
     {
@@ -98,7 +98,7 @@
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"1 car or van in household",
-        "Household Type":"Older family household",
+        "Household Type":"Older family household: All members aged 66+",
         "Car Ownership Count":3736
     },
     {
@@ -182,7 +182,7 @@
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"2 cars or vans in household",
-        "Household Type":"Older family household",
+        "Household Type":"Older family household: All members aged 66+",
         "Car Ownership Count":891
     },
     {
@@ -266,7 +266,7 @@
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"3 or more cars or vans in household",
-        "Household Type":"Older family household",
+        "Household Type":"Older family household: All members aged 66+",
         "Car Ownership Count":76
     },
     {
