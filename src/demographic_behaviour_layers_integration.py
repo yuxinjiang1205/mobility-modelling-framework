@@ -6,7 +6,7 @@ from .constraints import apply_trip_purpose_constraint, apply_travel_mode_constr
 
 DEMOGRAPHIC_ATTRIBUTES = (
     "Age",
-    "Gender",
+    "Sex",
     "Household Type",
     "Economic Activity Status",
     "Industry",
@@ -100,13 +100,13 @@ def extract_trip_purpose_distribution(
             record
             for record in records
             if record.get("Age") == representative_profile["Age"]
-            and record.get("Gender") == representative_profile["Gender"]
+            and record.get("Sex") == representative_profile["Sex"]
         ]
         if len(matches) != 1:
             raise ValueError(
                 f"Expected one NTS0611a record for {purpose}, "
                 f"age={representative_profile['Age']}, "
-                f"gender={representative_profile['Gender']}; found {len(matches)}."
+                f"Sex={representative_profile['Sex']}; found {len(matches)}."
             )
         try:
             distribution[purpose] = float(matches[0]["Trip Purpose Probability"])

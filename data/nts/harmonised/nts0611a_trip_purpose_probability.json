@@ -1,7 +1,7 @@
 [
     {
         "Year":2024,
-        "Gender":"Female",
+        "Sex":"Female",
         "Age":"0-4",
         "Commuting":0.0036156239,
         "Business":0.0007009078,
@@ -20,7 +20,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Female",
+        "Sex":"Female",
         "Age":"5-11",
         "Commuting":0.0036156239,
         "Business":0.0007009078,
@@ -39,7 +39,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Female",
+        "Sex":"Female",
         "Age":"12-17",
         "Commuting":0.0266723472,
         "Business":0.0016897356,
@@ -58,7 +58,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Female",
+        "Sex":"Female",
         "Age":"18-22",
         "Commuting":0.1803190267,
         "Business":0.015662382,
@@ -77,7 +77,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Female",
+        "Sex":"Female",
         "Age":"23-34",
         "Commuting":0.1876705289,
         "Business":0.0301083123,
@@ -96,7 +96,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Female",
+        "Sex":"Female",
         "Age":"35-49",
         "Commuting":0.1389591262,
         "Business":0.0301728785,
@@ -115,7 +115,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Female",
+        "Sex":"Female",
         "Age":"50-64",
         "Commuting":0.1311472141,
         "Business":0.0320954846,
@@ -134,7 +134,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Female",
+        "Sex":"Female",
         "Age":"65-74",
         "Commuting":0.0457297246,
         "Business":0.0130557724,
@@ -153,7 +153,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Female",
+        "Sex":"Female",
         "Age":"75+",
         "Commuting":0.0118715402,
         "Business":0.0037274124,
@@ -172,7 +172,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Male",
+        "Sex":"Male",
         "Age":"0-4",
         "Commuting":0.0031059742,
         "Business":0.0005253217,
@@ -191,7 +191,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Male",
+        "Sex":"Male",
         "Age":"5-11",
         "Commuting":0.0031059742,
         "Business":0.0005253217,
@@ -210,7 +210,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Male",
+        "Sex":"Male",
         "Age":"12-17",
         "Commuting":0.0292079032,
         "Business":0.0018337975,
@@ -229,7 +229,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Male",
+        "Sex":"Male",
         "Age":"18-22",
         "Commuting":0.2106602975,
         "Business":0.0206382599,
@@ -248,7 +248,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Male",
+        "Sex":"Male",
         "Age":"23-34",
         "Commuting":0.2552092489,
         "Business":0.0417041955,
@@ -267,7 +267,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Male",
+        "Sex":"Male",
         "Age":"35-49",
         "Commuting":0.215525042,
         "Business":0.0483228376,
@@ -286,7 +286,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Male",
+        "Sex":"Male",
         "Age":"50-64",
         "Commuting":0.1658049425,
         "Business":0.0524143435,
@@ -305,7 +305,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Male",
+        "Sex":"Male",
         "Age":"65-74",
         "Commuting":0.0604537503,
         "Business":0.024486712,
@@ -324,7 +324,7 @@
     },
     {
         "Year":2024,
-        "Gender":"Male",
+        "Sex":"Male",
         "Age":"75+",
         "Commuting":0.0121414006,
         "Business":0.0073532009,
