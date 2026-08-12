@@ -2,46 +2,46 @@
     {
         "Lower tier local authorities":"Manchester",
         "Age":"0-4",
-        "Population":34378
+        "Age Population":34378
     },
     {
         "Lower tier local authorities":"Manchester",
         "Age":"5-11",
-        "Population":51349
+        "Age Population":51349
     },
     {
         "Lower tier local authorities":"Manchester",
         "Age":"12-17",
-        "Population":41226
+        "Age Population":41226
     },
     {
         "Lower tier local authorities":"Manchester",
         "Age":"18-22",
-        "Population":61780
+        "Age Population":61780
     },
     {
         "Lower tier local authorities":"Manchester",
         "Age":"23-34",
-        "Population":123440
+        "Age Population":123440
     },
     {
         "Lower tier local authorities":"Manchester",
         "Age":"35-49",
-        "Population":108897
+        "Age Population":108897
     },
     {
         "Lower tier local authorities":"Manchester",
         "Age":"50-64",
-        "Population":78705
+        "Age Population":78705
     },
     {
         "Lower tier local authorities":"Manchester",
         "Age":"65-74",
-        "Population":30299
+        "Age Population":30299
     },
     {
         "Lower tier local authorities":"Manchester",
         "Age":"75+",
-        "Population":21868
+        "Age Population":21868
     }
 ]
