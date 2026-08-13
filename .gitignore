@@ -216,5 +216,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-output/demographic_profiles/representative_population_pool.json
+output/representative_profiles/representative_population_pool.json
 output/

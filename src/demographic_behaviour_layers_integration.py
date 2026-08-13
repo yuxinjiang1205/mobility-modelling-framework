@@ -184,7 +184,7 @@ def construct_constrained_behaviour_representation(
         }
 
     return {
-        "demographic_profile": {key: profile[key] for key in DEMOGRAPHIC_ATTRIBUTES},
+        "representative_profile": {key: profile[key] for key in DEMOGRAPHIC_ATTRIBUTES},
         "behavioural_representation": {
             "trip_purpose_distribution": trip_purpose,
             "conditioned_trip_purpose_distribution": conditioned_purpose,

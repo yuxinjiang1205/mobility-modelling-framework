@@ -1,7 +1,15 @@
+# AI Collaboration Record
+# Tool: ChatGPT (OpenAI)
+# Purpose: Integrate all framework layers into a complete mobility representation.
+# Prompt summary: Develop a reusable function that combines one representative
+# demographic profile with the constrained Behavioural Evidence Layer and
+# Opportunity Layer. Apply general trip-purpose-to-POI mappings, refine retained
+# Commuting purposes using the profile’s industry mapping, preserve excluded
+# mapping outcomes, and return both the complete nested representation and
+# presentation-ready DataFrames for every framework layer.
+
 import pandas as pd
-
 from IPython.display import Markdown, display
-
 from src.demographic_behaviour_layers_integration import (
     construct_constrained_behaviour_representation
 )
@@ -12,34 +20,6 @@ def construct_complete_framework(
     opportunity_layer,
     industry_component,
 ):
-    """
-    Construct the complete mobility framework representation
-    for one representative population profile.
-
-    Parameters
-    ----------
-    representative_profile : pandas.Series
-        One representative population profile.
-
-    assembled_behavioural_evidence : dict
-        Integrated trip-purpose, temporal, and travel-mode
-        behavioural evidence.
-
-    opportunity_layer : dict
-        General trip-purpose-to-POI mapping.
-
-    industry_component : dict
-        Industry-specific POI mapping used to refine commuting.
-
-    Returns
-    -------
-    complete_framework_profile : dict
-        Complete nested framework representation.
-
-    framework_dataframes : dict
-        DataFrames prepared for presentation.
-    """
-
     # ==========================================================
     # 1. Construct Demographic and Behavioural Evidence Layers
     # ==========================================================
@@ -55,11 +35,11 @@ def construct_complete_framework(
         )
     )
 
-    demographic_profile = complete_framework_representation[
-        "demographic_profile"
+    representative_profile = complete_framework_representation[
+        "representative_profile"
     ]
 
-    trip_purpose_distributions = complete_framework_representation[
+    trip_purpose_distribution = complete_framework_representation[
         "behavioural_representation"
     ]["conditioned_trip_purpose_distribution"]
 
@@ -68,7 +48,7 @@ def construct_complete_framework(
     # ==========================================================
 
     for trip_purpose, distributions in (
-        trip_purpose_distributions.items()
+        trip_purpose_distribution.items()
     ):
 
         if trip_purpose not in opportunity_layer:
@@ -106,9 +86,9 @@ def construct_complete_framework(
     # 3. Refine Commuting Using Industry
     # ==========================================================
 
-    if "Commuting" in trip_purpose_distributions:
+    if "Commuting" in trip_purpose_distribution:
 
-        industry = demographic_profile["Industry"]
+        industry = representative_profile["Industry"]
 
         if industry not in industry_component:
             raise KeyError(
@@ -117,7 +97,7 @@ def construct_complete_framework(
             )
 
         commuting_distributions = (
-            trip_purpose_distributions["Commuting"]
+            trip_purpose_distribution["Commuting"]
         )
 
         # Preserve the original general POI distribution
@@ -143,7 +123,7 @@ def construct_complete_framework(
     # ==========================================================
 
     demographic_dataframe = pd.DataFrame(
-        [demographic_profile]
+        [representative_profile]
     )
 
     # ==========================================================
@@ -159,7 +139,7 @@ def construct_complete_framework(
                 ],
             }
             for trip_purpose, distributions
-            in trip_purpose_distributions.items()
+            in trip_purpose_distribution.items()
         ]
     )
 
@@ -180,7 +160,7 @@ def construct_complete_framework(
                     "temporal_distribution"
                 ]
                 for trip_purpose, distributions
-                in trip_purpose_distributions.items()
+                in trip_purpose_distribution.items()
             },
             orient="index",
         )
@@ -200,7 +180,7 @@ def construct_complete_framework(
                     "travel_mode_distribution"
                 ]
                 for trip_purpose, distributions
-                in trip_purpose_distributions.items()
+                in trip_purpose_distribution.items()
             },
             orient="index",
         )
@@ -216,7 +196,7 @@ def construct_complete_framework(
     opportunity_rows = []
 
     for trip_purpose, distributions in (
-        trip_purpose_distributions.items()
+        trip_purpose_distribution.items()
     ):
 
         if (
@@ -284,15 +264,30 @@ def construct_complete_framework(
     )
 
 
+# AI Collaboration Record
+# Tool: ChatGPT (OpenAI)
+# Purpose: Improve the presentation of excluded opportunity mappings.
+# Prompt summary: Preserve the underlying None/NaN weight for trip purposes
+# outside the POI scope, but display it as “N/A”. Format valid opportunity
+# weights to four decimal places without modifying the original DataFrame
+# or affecting framework validation.
+
+
 ### Framework Display Functions ###
-def display_complete_framework(framework_dataframes):
+def display_complete_framework(
+    framework_dataframes,
+):
     """
-    Display each framework component as a separate DataFrame.
+    Display each framework component
+    as a separate DataFrame.
     """
 
     display(
-        Markdown("## Demographic Layer")
+        Markdown(
+            "## Demographic Layer"
+        )
     )
+
     display(
         framework_dataframes[
             "demographic_layer"
@@ -305,6 +300,7 @@ def display_complete_framework(framework_dataframes):
             "\n### Trip-purpose Probabilities"
         )
     )
+
     display(
         framework_dataframes[
             "trip_purpose_probabilities"
@@ -316,6 +312,7 @@ def display_complete_framework(framework_dataframes):
             "### Temporal Distributions"
         )
     )
+
     display(
         framework_dataframes[
             "temporal_distributions"
@@ -327,6 +324,7 @@ def display_complete_framework(framework_dataframes):
             "### Travel-mode Distributions"
         )
     )
+
     display(
         framework_dataframes[
             "travel_mode_distributions"
@@ -339,8 +337,29 @@ def display_complete_framework(framework_dataframes):
             "\n### Final POI Mapping"
         )
     )
-    display(
+
+    # Create a presentation-only copy so that
+    # the original framework DataFrame remains
+    # unchanged for subsequent validation.
+    opportunity_display = (
         framework_dataframes[
             "opportunity_layer"
-        ]
+        ].copy()
+    )
+
+    # Display excluded mappings as N/A while
+    # formatting valid weights to four decimals.
+    opportunity_display["Weight"] = (
+        opportunity_display["Weight"]
+        .apply(
+            lambda value: (
+                "N/A"
+                if pd.isna(value)
+                else f"{value:.4f}"
+            )
+        )
+    )
+
+    display(
+        opportunity_display
     )
