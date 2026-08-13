@@ -1,7 +1,7 @@
 import math
 from collections.abc import Mapping
-
 from .constraints import apply_trip_purpose_constraint, apply_travel_mode_constraint
+from ontology.STUDY_AREA import STUDY_AREA
 
 
 DEMOGRAPHIC_ATTRIBUTES = (
@@ -93,7 +93,7 @@ def retrieve_evidence_records(evidence, evidence_key, shared_trip_purpose):
 def extract_trip_purpose_distribution(
     representative_profile, assembled_behavioural_evidence
 ):
-    distribution = {}
+    trip_purpose_distribution = {}
     for purpose, evidence in assembled_behavioural_evidence.items():
         records = retrieve_evidence_records(evidence, NTS0611A_EVIDENCE_KEY, purpose)
         matches = [
@@ -109,14 +109,14 @@ def extract_trip_purpose_distribution(
                 f"Sex={representative_profile['Sex']}; found {len(matches)}."
             )
         try:
-            distribution[purpose] = float(matches[0]["Trip Purpose Probability"])
+            trip_purpose_distribution[purpose] = float(matches[0]["Trip Purpose Probability"])
         except KeyError as error:
             raise KeyError(
                 f"Missing 'Trip Purpose Probability' for {purpose}."
             ) from error
 
-    validate_probability_distribution(distribution, "Trip-purpose distribution")
-    return distribution
+    validate_probability_distribution(trip_purpose_distribution, "Trip-purpose distribution")
+    return trip_purpose_distribution
 
 
 def extract_probability_fields(behavioural_evidence):
@@ -174,6 +174,7 @@ def construct_constrained_behaviour_representation(
             age=profile["Age"],
             car_ownership=profile["Car Ownership"],
             travel_mode_distribution=travel_modes,
+            study_area=STUDY_AREA,
         )
         validate_probability_distribution(travel_modes, f"Constrained travel modes for {purpose}")
         conditioned_purpose[purpose] = {
