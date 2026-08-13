@@ -127,7 +127,7 @@ def extract_probability_fields(behavioural_evidence):
     }
 
 
-def extract_purpose_conditioned_distribution(shared_trip_purpose, evidence):
+def extract_conditioned_trip_purpose_distribution(shared_trip_purpose, evidence):
     trip_purpose = shared_trip_purpose
     temporal = retrieve_evidence_records(evidence, NTS0502B_EVIDENCE_KEY, trip_purpose)
     travel_mode = retrieve_evidence_records(evidence, NTS0409A_EVIDENCE_KEY, trip_purpose)
@@ -167,7 +167,7 @@ def construct_constrained_behaviour_representation(
     for purpose, probability in trip_purpose.items():
         if purpose not in assembled_behavioural_evidence:
             raise KeyError(f"No assembled evidence for constrained purpose '{purpose}'.")
-        temporal, travel_modes = extract_purpose_conditioned_distribution(
+        temporal, travel_modes = extract_conditioned_trip_purpose_distribution(
             purpose, assembled_behavioural_evidence[purpose]
         )
         travel_modes = apply_travel_mode_constraint(
@@ -186,6 +186,6 @@ def construct_constrained_behaviour_representation(
         "demographic_profile": {key: profile[key] for key in DEMOGRAPHIC_ATTRIBUTES},
         "behavioural_representation": {
             "trip_purpose_distribution": trip_purpose,
-            "purpose_conditioned_distribution": conditioned_purpose,
+            "conditioned_trip_purpose_distribution": conditioned_purpose,
         },
     }

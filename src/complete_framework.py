@@ -61,7 +61,7 @@ def construct_complete_framework(
 
     trip_purpose_distributions = complete_framework_representation[
         "behavioural_representation"
-    ]["purpose_conditioned_distribution"]
+    ]["conditioned_trip_purpose_distribution"]
 
     # ==========================================================
     # 2. Add General Opportunity Mapping
