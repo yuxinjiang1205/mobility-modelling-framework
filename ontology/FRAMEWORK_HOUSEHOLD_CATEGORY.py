@@ -34,11 +34,11 @@ FRAMEWORK_HOUSEHOLD_CATEGORY = {
 
     "Other family household": [
         "Single family household: Other single family household: Other family composition",
-        "Other Household Categorys: Other related household: Other family composition"
+        "Other household types: Other related household: Other family composition"
     ],
 
     "Other non-family household": [
-        "Other Household Categorys: With dependent children",
-        "Other Household Categorys: Other, including all full-time students and all aged 66 years and over"
+        "Other household types: With dependent children",
+        "Other household types: Other, including all full-time students and all aged 66 years and over"
     ]
 }

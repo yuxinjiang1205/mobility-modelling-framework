@@ -68,19 +68,19 @@
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"No cars or vans in household",
-        "Household Category":null,
+        "Household Category":"Other family household",
         "Car Ownership Count":1902
     },
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"No cars or vans in household",
-        "Household Category":null,
+        "Household Category":"Other non-family household",
         "Car Ownership Count":1635
     },
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"No cars or vans in household",
-        "Household Category":null,
+        "Household Category":"Other non-family household",
         "Car Ownership Count":7852
     },
     {
@@ -152,19 +152,19 @@
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"1 car or van in household",
-        "Household Category":null,
+        "Household Category":"Other family household",
         "Car Ownership Count":1334
     },
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"1 car or van in household",
-        "Household Category":null,
+        "Household Category":"Other non-family household",
         "Car Ownership Count":3343
     },
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"1 car or van in household",
-        "Household Category":null,
+        "Household Category":"Other non-family household",
         "Car Ownership Count":6409
     },
     {
@@ -236,19 +236,19 @@
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"2 cars or vans in household",
-        "Household Category":null,
+        "Household Category":"Other family household",
         "Car Ownership Count":514
     },
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"2 cars or vans in household",
-        "Household Category":null,
+        "Household Category":"Other non-family household",
         "Car Ownership Count":2229
     },
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"2 cars or vans in household",
-        "Household Category":null,
+        "Household Category":"Other non-family household",
         "Car Ownership Count":3321
     },
     {
@@ -320,19 +320,19 @@
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"3 or more cars or vans in household",
-        "Household Category":null,
+        "Household Category":"Other family household",
         "Car Ownership Count":63
     },
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"3 or more cars or vans in household",
-        "Household Category":null,
+        "Household Category":"Other non-family household",
         "Car Ownership Count":1062
     },
     {
         "Lower tier local authorities":"Manchester",
         "Car Ownership":"3 or more cars or vans in household",
-        "Household Category":null,
+        "Household Category":"Other non-family household",
         "Car Ownership Count":1460
     }
 ]

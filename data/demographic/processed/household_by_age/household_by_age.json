@@ -376,5 +376,113 @@
         "Household Category":"One-person household",
         "Age":"75+",
         "Household Count":9611
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other family household",
+        "Age":"0-4",
+        "Household Count":61
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other family household",
+        "Age":"12-17",
+        "Household Count":260
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other family household",
+        "Age":"18-22",
+        "Household Count":1344
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other family household",
+        "Age":"23-34",
+        "Household Count":3478
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other family household",
+        "Age":"35-49",
+        "Household Count":1678
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other family household",
+        "Age":"5-11",
+        "Household Count":136
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other family household",
+        "Age":"50-64",
+        "Household Count":1559
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other family household",
+        "Age":"65-74",
+        "Household Count":319
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other family household",
+        "Age":"75+",
+        "Household Count":83
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other non-family household",
+        "Age":"0-4",
+        "Household Count":5487
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other non-family household",
+        "Age":"12-17",
+        "Household Count":5112
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other non-family household",
+        "Age":"18-22",
+        "Household Count":23449
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other non-family household",
+        "Age":"23-34",
+        "Household Count":34858
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other non-family household",
+        "Age":"35-49",
+        "Household Count":14539
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other non-family household",
+        "Age":"5-11",
+        "Household Count":6253
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other non-family household",
+        "Age":"50-64",
+        "Household Count":10429
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other non-family household",
+        "Age":"65-74",
+        "Household Count":3383
+    },
+    {
+        "Lower tier local authorities":"Manchester",
+        "Household Category":"Other non-family household",
+        "Age":"75+",
+        "Household Count":1793
     }
 ]
