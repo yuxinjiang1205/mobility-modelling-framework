@@ -61,7 +61,7 @@ def apply_travel_mode_constraint(
         travel_mode_distribution
     )
 
-    young_age_groups = {
+    young_FRAMEWORK_AGE_GROUPs = {
         "0-4",
         "5-11",
     }
@@ -86,7 +86,7 @@ def apply_travel_mode_constraint(
 
     # Young children cannot drive
     # a car or motorcycle.
-    if age in young_age_groups:
+    if age in young_FRAMEWORK_AGE_GROUPs:
         modes_to_remove.update({
             "Car or van driver",
             "Motorcycle",

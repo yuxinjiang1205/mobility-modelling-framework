@@ -7,7 +7,7 @@ from ontology.STUDY_AREA import STUDY_AREA
 DEMOGRAPHIC_ATTRIBUTES = (
     "Age",
     "Sex",
-    "Household Type",
+    "Household Category",
     "Economic Activity Status",
     "Industry",
     "Ethnic Group",

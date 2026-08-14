@@ -1,4 +1,4 @@
-def AGE_GROUP(age):
+def FRAMEWORK_AGE_GROUP(age):
     if age <= 4:
         return "0-4"
     elif age <= 11:
