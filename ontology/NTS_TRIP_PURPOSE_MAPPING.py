@@ -1,4 +1,4 @@
-nts_purpose_mapping = {
+NTS_TRIP_PURPOSE_MAPPING = {
 
     "Commuting": {
         "nts0502b": ["Commuting"],

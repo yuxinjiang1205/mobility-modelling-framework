@@ -80,13 +80,13 @@ def validate_probability_distribution(distribution, distribution_name):
         raise ValueError(f"{distribution_name} sums to {sum(probabilities)}, not one.")
 
 
-def retrieve_evidence_records(evidence, evidence_key, shared_trip_purpose):
+def retrieve_evidence_records(evidence, evidence_key, FRAMEWORK_TRIP_PURPOSE):
     if evidence_key not in evidence:
         raise KeyError(
-            f"Missing evidence key '{evidence_key}' for purpose '{shared_trip_purpose}'."
+            f"Missing evidence key '{evidence_key}' for purpose '{FRAMEWORK_TRIP_PURPOSE}'."
         )
     return convert_nts_evidence_distribution_to_list(
-        evidence[evidence_key], f"{evidence_key} for {shared_trip_purpose}"
+        evidence[evidence_key], f"{evidence_key} for {FRAMEWORK_TRIP_PURPOSE}"
     )
 
 
@@ -127,8 +127,8 @@ def extract_probability_fields(behavioural_evidence):
     }
 
 
-def extract_conditioned_trip_purpose_distribution(shared_trip_purpose, evidence):
-    trip_purpose = shared_trip_purpose
+def extract_conditioned_trip_purpose_distribution(FRAMEWORK_TRIP_PURPOSE, evidence):
+    trip_purpose = FRAMEWORK_TRIP_PURPOSE
     temporal = retrieve_evidence_records(evidence, NTS0502B_EVIDENCE_KEY, trip_purpose)
     travel_mode = retrieve_evidence_records(evidence, NTS0409A_EVIDENCE_KEY, trip_purpose)
     if len(temporal) != 1 or len(travel_mode) != 1:

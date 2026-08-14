@@ -1,4 +1,4 @@
-SHARED_TRIP_PURPOSE = [
+FRAMEWORK_TRIP_PURPOSE = [
     "Commuting",
     "Business",
     "Education",
