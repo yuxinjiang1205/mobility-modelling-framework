@@ -210,7 +210,7 @@ def construct_complete_framework(
                     "POI Category": distributions[
                         "allocation_outcome"
                     ],
-                    "Weight": None,
+                    "Probability": None,
                 }
             )
 
@@ -220,7 +220,7 @@ def construct_complete_framework(
             "poi_distribution"
         ]
 
-        for poi_category, weight in (
+        for poi_category, Probability in (
             final_poi_distribution.items()
         ):
 
@@ -228,7 +228,7 @@ def construct_complete_framework(
                 {
                     "Trip Purpose": trip_purpose,
                     "POI Category": poi_category,
-                    "Weight": round(weight, 4),
+                    "Probability": round(Probability, 4),
                 }
             )
 
@@ -267,9 +267,9 @@ def construct_complete_framework(
 # AI Collaboration Record
 # Tool: ChatGPT (OpenAI)
 # Purpose: Improve the presentation of excluded opportunity mappings.
-# Prompt summary: Preserve the underlying None/NaN weight for trip purposes
+# Prompt summary: Preserve the underlying None/NaN Probability for trip purposes
 # outside the POI scope, but display it as “N/A”. Format valid opportunity
-# weights to four decimal places without modifying the original DataFrame
+# Probabilitys to four decimal places without modifying the original DataFrame
 # or affecting framework validation.
 
 
@@ -348,9 +348,9 @@ def display_complete_framework(
     )
 
     # Display excluded mappings as N/A while
-    # formatting valid weights to four decimals.
-    opportunity_display["Weight"] = (
-        opportunity_display["Weight"]
+    # formatting valid Probabilitys to four decimals.
+    opportunity_display["Probability"] = (
+        opportunity_display["Probability"]
         .apply(
             lambda value: (
                 "N/A"
