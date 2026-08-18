@@ -16,7 +16,7 @@ DEMOGRAPHIC_ATTRIBUTES = (
 )
 NON_PROBABILITY_FIELDS = {"Year", "Purpose", "Trip purpose"}
 NTS0611A_EVIDENCE_KEY = "nts0611a_trip_purpose_distribution"
-NTS0502B_EVIDENCE_KEY = "nts0502b_temporal_distribution"
+NTS0502B_EVIDENCE_KEY = "nts0502b_trip_start_time_distribution"
 NTS0409A_EVIDENCE_KEY = "nts0409a_travel_mode_distribution"
 PROBABILITY_TOLERANCE = 1e-8
 
@@ -129,19 +129,19 @@ def extract_probability_fields(behavioural_evidence):
 
 def extract_conditioned_trip_purpose_distribution(FRAMEWORK_TRIP_PURPOSE, evidence):
     trip_purpose = FRAMEWORK_TRIP_PURPOSE
-    temporal = retrieve_evidence_records(evidence, NTS0502B_EVIDENCE_KEY, trip_purpose)
+    trip_start_time = retrieve_evidence_records(evidence, NTS0502B_EVIDENCE_KEY, trip_purpose)
     travel_mode = retrieve_evidence_records(evidence, NTS0409A_EVIDENCE_KEY, trip_purpose)
-    if len(temporal) != 1 or len(travel_mode) != 1:
+    if len(trip_start_time) != 1 or len(travel_mode) != 1:
         raise ValueError(
-            f"Expected one temporal and one travel-mode record for {trip_purpose}; "
-            f"found {len(temporal)} and {len(travel_mode)}."
+            f"Expected one trip_start_time and one travel-mode record for {trip_purpose}; "
+            f"found {len(trip_start_time)} and {len(travel_mode)}."
         )
 
-    temporal_distribution = extract_probability_fields(temporal[0])
+    trip_start_time_distribution = extract_probability_fields(trip_start_time[0])
     mode_distribution = extract_probability_fields(travel_mode[0])
-    validate_probability_distribution(temporal_distribution, f"Temporal distribution for {trip_purpose}")
+    validate_probability_distribution(trip_start_time_distribution, f"trip_start_time distribution for {trip_purpose}")
     validate_probability_distribution(mode_distribution, f"Travel-mode distribution for {trip_purpose}")
-    return temporal_distribution, mode_distribution
+    return trip_start_time_distribution, mode_distribution
 
 
 def construct_constrained_behaviour_representation(
@@ -167,7 +167,7 @@ def construct_constrained_behaviour_representation(
     for purpose, probability in trip_purpose.items():
         if purpose not in assembled_behavioural_evidence:
             raise KeyError(f"No assembled evidence for constrained purpose '{purpose}'.")
-        temporal, travel_modes = extract_conditioned_trip_purpose_distribution(
+        trip_start_time, travel_modes = extract_conditioned_trip_purpose_distribution(
             purpose, assembled_behavioural_evidence[purpose]
         )
         travel_modes = apply_travel_mode_constraint(
@@ -179,7 +179,7 @@ def construct_constrained_behaviour_representation(
         validate_probability_distribution(travel_modes, f"Constrained travel modes for {purpose}")
         conditioned_purpose[purpose] = {
             "trip_purpose_probability": float(probability),
-            "temporal_distribution": temporal,
+            "trip_start_time_distribution": trip_start_time,
             "travel_mode_distribution": travel_modes,
         }
 

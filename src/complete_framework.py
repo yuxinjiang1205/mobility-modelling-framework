@@ -150,14 +150,14 @@ def construct_complete_framework(
     ].round(4)
 
     # ==========================================================
-    # 6. Prepare Temporal Distribution DataFrame
+    # 6. Prepare trip_start_time Distribution DataFrame
     # ==========================================================
 
-    temporal_distribution_dataframe = (
+    trip_start_time_distribution_dataframe = (
         pd.DataFrame.from_dict(
             {
                 trip_purpose: distributions[
-                    "temporal_distribution"
+                    "trip_start_time_distribution"
                 ]
                 for trip_purpose, distributions
                 in trip_purpose_distribution.items()
@@ -243,8 +243,8 @@ def construct_complete_framework(
         "trip_purpose_probabilities": (
             trip_purpose_probability_dataframe
         ),
-        "temporal_distributions": (
-            temporal_distribution_dataframe
+        "trip_start_time_distributions": (
+            trip_start_time_distribution_dataframe
         ),
         "travel_mode_distributions": (
             travel_mode_distribution_dataframe
@@ -309,13 +309,13 @@ def display_complete_framework(
 
     display(
         Markdown(
-            "### Temporal Distributions"
+            "### trip_start_time Distributions"
         )
     )
 
     display(
         framework_dataframes[
-            "temporal_distributions"
+            "trip_start_time_distributions"
         ]
     )
 
