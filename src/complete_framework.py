@@ -269,7 +269,7 @@ def construct_complete_framework(
 # Purpose: Improve the presentation of excluded opportunity mappings.
 # Prompt summary: Preserve the underlying None/NaN Probability for trip purposes
 # outside the POI scope, but display it as “N/A”. Format valid opportunity
-# Probabilitys to four decimal places without modifying the original DataFrame
+# Probabilities to four decimal places without modifying the original DataFrame
 # or affecting framework validation.
 
 
@@ -348,7 +348,7 @@ def display_complete_framework(
     )
 
     # Display excluded mappings as N/A while
-    # formatting valid Probabilitys to four decimals.
+    # formatting valid Probabilities to four decimals.
     opportunity_display["Probability"] = (
         opportunity_display["Probability"]
         .apply(
