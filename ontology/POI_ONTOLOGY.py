@@ -15,7 +15,7 @@ POI_ONTOLOGY = {
     "Household, Office, Leisure and Garden": "Retail",
     "Motoring": "Retail",
 
-    # Social
+    # Food and Beverage
     "Eating and Drinking": "Food and Beverage",
 
     # Recreation
