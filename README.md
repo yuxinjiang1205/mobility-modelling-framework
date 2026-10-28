@@ -21,6 +21,13 @@ so the prompt records are concise reconstructions rather than exact transcripts.
 I remained responsible for the research design, ontology and mapping
 decisions, methodological interpretation, and revision of AI suggestions.
 
+## AI Documentation
+
+AI-assisted code is identified through inline comments in the source
+files and notebooks. Each comment refers to a corresponding entry in
+`AI_USAGE_AND_CODE_PROVENANCE.md`, which records the tool, location,
+reconstructed final prompt, and human evaluation.
+
 ## Repository structure
 
 ```
@@ -33,14 +40,14 @@ requirements.txt      Python dependencies
 ```
 ### Notes for `data/` path:
 
-1. `data/` path contains the folders for all the raw datasets and processed JSON files.
+1. `data/` path contains the folders for all the raw datasets (excluded) 
+    and processed JSON files.
 2. Even though RM014: Distance travelled to work by age dataset was downloaded from ONS
     and incorporated into the representative profile space, the file path is
     `data/mobility/raw/` instead of `data/demographic/raw/` due to the representation
     and information provided.
 3. OS POI raw data is licensed. This project extracted this data through Digimap.
-    The regrouped POI count is provided in the dissertation document. Users can rebuiled the dataset
-    by extracting the numbers from the dissertation report.
+    The regrouped POI counts are reported in the Dissertation Document.
 
 ### Notes for `notebook/` path:
 
@@ -55,12 +62,14 @@ requirements.txt      Python dependencies
     excluding RM014.
 4. `notebook/mobility` includes the processing of RM014.
 5. `notebook/integration` includes: 
-    (1) the construction of unconstrained representative profile space;
-    (2) the construction of constrained representative profile space (Zero-value filtering, Employment);
-    (3) the construction of the Behavioural Evidence Layer;
-    (4) the integration process of the Demographic Layer and the Behavioural Evidence Layer.
-6. `notebook/opportunity` includes the construction of the Opportunity Layer and
-    the Industry Opportunity Component.
+    (1) The construction of unconstrained representative profile space;
+    (2) The construction of constrained representative profile space (Zero-value filtering, Employment);
+    (3) The construction of the Behavioural Evidence Layer;
+    (4) The integration process of the Demographic Layer and the Behavioural Evidence Layer.
+6. `notebook/opportunity` includes:
+    (1) The construction of the Opportunity Layer;
+    (2) The Industry Opportunity Component;
+    (3) The POI data preparation
 7. `notebook/framework` includes the final framework integration.
 8. `notebook/validation` includes three validation approaches:
     (1) NTS0611a internal distribution consistency check
@@ -69,7 +78,7 @@ requirements.txt      Python dependencies
 
 ### Notes for `ontology/` path:
 
-1. This `data/` path includes the following methodology decisions:
+1. This `ontology/` path includes the following methodology decisions:
     (1) Framework age groups;
     (2) Framework household categories;
     (3) Framework trip purposes (for NTS datasets integration);
@@ -81,18 +90,18 @@ requirements.txt      Python dependencies
 
 ### Notes for `src/` path:
 
-1. This `ontology/` path includes:
+1. This `src/` path includes:
     (1) Reusable behavioural constraints (trip-purpose and travel-mode);
     (2) The integration function for the Demographic and Behavioural Evidence Layers;
     (3) The complete framework construction function
 
 ### Notes for `output/` path:
 
-1. This `ontology/` path includes:
+1. This `output/` path includes:
     (1) The Demographic Layer's output (the integration of 3 probability distributions)
     (2) The representative profile space (constrained and unconstrained)
     (3) The Opportunity Layer
-    (4) All validation figures
+    (4) All validation figures (excluded)
 
 ## Environment and installation
 
@@ -124,8 +133,8 @@ filenames before rerunning the relevant preprocessing notebooks.
 2. Census 2021 RM008: Car or van availability by household composition, 
    `data/demographic/raw/car_ownership_by_household/RM008_Car_ownership_by_household.xlsx`
    [ONS RM008](https://www.ons.gov.uk/datasets/RM008/editions/2021/versions/3)
-3. Census 2021 RM024: Economic activity status by sex by age, 
-   `data/demographic/raw/economic_activity_status/ RM024_Economic_activity_status_by_age.xlsx`
+3. Census 2021 RM024: Economic activity status by sex by age,
+   `data/demographic/raw/economic_activity_status/RM024_Economic_activity_status_by_age.xlsx`
    [ONS RM024](https://www.ons.gov.uk/datasets/RM024/editions/2021/versions/3)
 4. Census 2021 RM032: Ethnic group by sex by age, 
    `data/demographic/raw/ethnic_group/RM032_Ethnic_group_by_age.xlsx`
@@ -135,7 +144,7 @@ filenames before rerunning the relevant preprocessing notebooks.
    [ONS RM057](https://www.ons.gov.uk/datasets/RM057/editions/2021/versions/1?showAll=hh_family_composition_15a)
 6. Census 2021 RM062: Industry by age,
     `data/demographic/raw/industry/RM062_Industry_by_age.xlsx`
-    [ONS RM062](https://www.ons.gov.uk/census/census2021dictionary/variablesbytopic/labourmarketvariablescensus2021/industrycurrent/classifications)
+    [ONS RM062](https://www.ons.gov.uk/datasets/RM062/editions/2021/versions/3)
 7. Census 2021 RM121: Sex by age, `data/demographic/raw/sex/RM121_Sex.xlsx`
     [ONS RM121](https://www.ons.gov.uk/datasets/RM121/editions/2021/versions/1)
 8. Census 2021 RM014: Distance travelled to work by age, 
@@ -169,9 +178,9 @@ To recreate the required processed counts:
 
 ### To Rebuild this framework
 To rebuild this framework, the following is the recommended process:
-1. Run `notebooks/demographic/representative_profile_construction.ipynb`
+1. Run `notebooks/integration/representative_profile_construction.ipynb`
    to build the unconstrained representative profile space.
-2. Run `notebooks/framework/constrained_representative_profile_space.ipynb`
+2. Run `notebooks/integration/constrained_representative_profile_space.ipynb`
    to build the constrained representative profile space. This is the input
    for this framework.
 3. Run `notebooks/integration/behaviour_evidence_integration.ipynb`
